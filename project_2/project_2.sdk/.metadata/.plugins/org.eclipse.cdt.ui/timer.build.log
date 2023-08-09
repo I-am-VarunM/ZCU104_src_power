@@ -1,0 +1,34 @@
+00:18:54 **** Auto Build of configuration Debug for project timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../sysmon_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:56:
+../../sysmon_bsp/psu_cortexa53_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:9: warning: unused variable 't' [-Wunused-variable]
+     int t = k*j;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../sysmon_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: timer.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sysmon_bsp/psu_cortexa53_0/lib -o "timer.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: timer.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size timer.elf  |tee "timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72976	   4552	  20768	  98296	  17ff8	timer.elf
+'Finished building: timer.elf.size'
+' '
+
+00:18:55 Build Finished (took 809ms)
+

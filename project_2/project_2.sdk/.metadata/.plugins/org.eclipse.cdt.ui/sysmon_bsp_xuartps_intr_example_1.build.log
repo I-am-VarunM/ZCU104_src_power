@@ -1,0 +1,6 @@
+21:12:37 **** Auto Build of configuration Debug for project sysmon_bsp_xuartps_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:12:37 Build Finished (took 194ms)
+

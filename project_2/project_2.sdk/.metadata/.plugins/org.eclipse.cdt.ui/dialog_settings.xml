@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Default C source template" key="LastUsedSourceTemplate"/>
+	<item value="Default C header template" key="LastUsedHeaderTemplate"/>
+	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
+		<item value="398" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="769" key="DIALOG_X_ORIGIN"/>
+		<item value="236" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="206" key="size.height"/>
+		<item value="714" key="size.width"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="false" key="caseSensitive"/>
+		<item value="227191" key="searchFlags"/>
+		<list key="previousPatterns">
+			<item value="loadEnabled"/>
+			<item value="calloc"/>
+			<item value="adjustFactorIPCoreLoad"/>
+			<item value="sleep"/>
+			<item value="XIicPs_SendByte"/>
+			<item value="fan"/>
+			<item value="continuePollingEnabled"/>
+			<item value="sendMinMaxEnabled"/>
+			<item value="psu_rem_temp_max_changed"/>
+			<item value="XUartPs_EnableUart"/>
+			<item value="free"/>
+			<item value="PSU_I2C_1"/>
+		</list>
+	</section>
+	<section name="NewClassWizardPage">
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="0" key="askReindex.detail"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.typehierarchy.OpenTypeInHierarchyActionSettings">
+		<item value="true" key="show_enums"/>
+		<item value="true" key="show_unions"/>
+		<item value="false" key="show_macros"/>
+		<item value="true" key="show_classes"/>
+		<item value="false" key="show_functions"/>
+		<item value="true" key="show_lowlevel"/>
+		<item value="false" key="show_namespaces"/>
+		<item value="false" key="show_enumerators"/>
+		<item value="true" key="show_structs"/>
+		<item value="744" key="x"/>
+		<item value="432" key="width"/>
+		<item value="78" key="y"/>
+		<item value="true" key="show_typedefs"/>
+		<item value="false" key="show_variables"/>
+		<item value="663" key="height"/>
+	</section>
+</section>

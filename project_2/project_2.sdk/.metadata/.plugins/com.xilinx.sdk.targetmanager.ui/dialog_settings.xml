@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_3-bmmFile"/>
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_4-bmmFile"/>
+	<item value="C:\Users\Carina\KIT\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\Base_Zynq_MPSoC_wrapper_hw_platform_4\Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_2-bitFile"/>
+	<item value="C:\Users\Carina\KIT\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\Base_Zynq_MPSoC_wrapper_hw_platform_3\Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_0-bitFile"/>
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_0-bmmFile"/>
+	<item value="C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\Base_Zynq_MPSoC_wrapper_hw_platform_1\Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_1-bitFile"/>
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_5-bmmFile"/>
+	<item value="Local" key="Base_Zynq_MPSoC_wrapper_hw_platform_3-target"/>
+	<item value="new_board" key="Base_Zynq_MPSoC_wrapper_hw_platform_4-target"/>
+	<item value="Local" key="Base_Zynq_MPSoC_wrapper_hw_platform_2-target"/>
+	<item value="Auto Detect" key="Base_Zynq_MPSoC_wrapper_hw_platform_0-device"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Auto Detect" key="Base_Zynq_MPSoC_wrapper_hw_platform_1-device"/>
+	<item value="Local" key="Base_Zynq_MPSoC_wrapper_hw_platform_5-target"/>
+	<item value="Local" key="Base_Zynq_MPSoC_wrapper_hw_platform_1-target"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_1-partial_bit"/>
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_1-bmmFile"/>
+	<item value="Xilinx HW-Z1-ZCU104 FT4232H 01716A/1-xczu7" key="Base_Zynq_MPSoC_wrapper_hw_platform_4-device"/>
+	<item value="Auto Detect" key="Base_Zynq_MPSoC_wrapper_hw_platform_3-device"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_4-partial_bit"/>
+	<item value="Auto Detect" key="Base_Zynq_MPSoC_wrapper_hw_platform_2-device"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_2-partial_bit"/>
+	<item value="Auto Detect" key="Base_Zynq_MPSoC_wrapper_hw_platform_5-device"/>
+	<item value="" key="Base_Zynq_MPSoC_wrapper_hw_platform_2-bmmFile"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_3-partial_bit"/>
+	<item value="false" key="Base_Zynq_MPSoC_wrapper_hw_platform_5-partial_bit"/>
+	<item value="Local" key="Base_Zynq_MPSoC_wrapper_hw_platform_0-target"/>
+	<item value="Base_Zynq_MPSoC_wrapper_hw_platform_5" key="programfpga.hwplatform"/>
+	<item value="/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/impl_1/Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_5-bitFile"/>
+	<item value="C:\Users\Carina\KIT\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\Base_Zynq_MPSoC_wrapper_hw_platform_4\Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_4-bitFile"/>
+	<item value="C:\Users\Carina\KIT\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\Base_Zynq_MPSoC_wrapper_hw_platform_3\Base_Zynq_MPSoC_wrapper.bit" key="Base_Zynq_MPSoC_wrapper_hw_platform_3-bitFile"/>
+</section>

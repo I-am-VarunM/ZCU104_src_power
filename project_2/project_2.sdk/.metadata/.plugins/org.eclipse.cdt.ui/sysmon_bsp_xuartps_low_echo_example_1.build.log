@@ -1,0 +1,21 @@
+00:18:53 **** Auto Build of configuration Debug for project sysmon_bsp_xuartps_low_echo_example_1 ****
+make all 
+'Building file: ../src/xuartps_low_echo_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_low_echo_example.o" -I../../sysmon_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xuartps_low_echo_example.d" -MT"src/xuartps_low_echo_example.o" -o "src/xuartps_low_echo_example.o" "../src/xuartps_low_echo_example.c"
+'Finished building: ../src/xuartps_low_echo_example.c'
+' '
+'Building target: sysmon_bsp_xuartps_low_echo_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sysmon_bsp/psu_cortexa53_0/lib -o "sysmon_bsp_xuartps_low_echo_example_1.elf"  ./src/xuartps_low_echo_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sysmon_bsp_xuartps_low_echo_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size sysmon_bsp_xuartps_low_echo_example_1.elf  |tee "sysmon_bsp_xuartps_low_echo_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34220	   2472	  20704	  57396	   e034	sysmon_bsp_xuartps_low_echo_example_1.elf
+'Finished building: sysmon_bsp_xuartps_low_echo_example_1.elf.size'
+' '
+
+00:18:53 Build Finished (took 610ms)
+

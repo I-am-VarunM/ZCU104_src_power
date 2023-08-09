@@ -1,0 +1,555 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun  5 15:14:51 2023
+# Process ID: 13782
+# Current directory: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1
+# Command line: vivado -log Base_Zynq_MPSoC_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Base_Zynq_MPSoC_wrapper.tcl
+# Log file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/Base_Zynq_MPSoC_wrapper.vds
+# Journal file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Base_Zynq_MPSoC_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Using_IP_with_Zynq/lab1/hls_macc/vhls_prj/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Introduction/lab1/lab1/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2019.1-sdx/Vivado/2019.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1512.352 ; gain = 24.750 ; free physical = 10676 ; free virtual = 28337
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1734.352 ; gain = 222.000 ; free physical = 10640 ; free virtual = 28302
+Command: synth_design -top Base_Zynq_MPSoC_wrapper -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14731 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2568.402 ; gain = 0.000 ; free physical = 9327 ; free virtual = 27279
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_wrapper' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/hdl/Base_Zynq_MPSoC_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:192]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_Measurement_Load_0_1' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_Measurement_Load_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_Measurement_Load_0_1' (1#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_Measurement_Load_0_1_stub.v:6]
+WARNING: [Synth 8-7023] instance 'Measurement_Load_1' of module 'Base_Zynq_MPSoC_Measurement_Load_0_1' has 3 connections declared, but only 2 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:192]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:195]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0' (2#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'Simulated_Load_IP_Co_0' of module 'Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0' has 3 connections declared, but only 2 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:195]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_axi_gpio_0_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_axi_gpio_0_0' (3#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_axi_gpio_1_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_axi_gpio_1_0' (4#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_axi_gpio_2_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_axi_gpio_2_0' (5#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_ps8_0_axi_periph_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:674]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_24AFAB' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:3758]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_ds_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_ds_0' (6#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_pc_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_pc_0' (7#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Base_Zynq_MPSoC_auto_pc_0' has 56 connections declared, but only 54 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4109]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_24AFAB' (8#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:3758]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_18ZRBVX' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4166]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_18ZRBVX' (9#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4166]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_163ZI66' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4466]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_ds_1' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_ds_1' (10#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_pc_1' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_pc_1' (11#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_1_stub.v:6]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Base_Zynq_MPSoC_auto_pc_1' has 56 connections declared, but only 54 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4817]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_163ZI66' (12#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4466]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_DYHZ1S' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4874]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_ds_2' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_ds_2' (13#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_pc_2' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_pc_2' (14#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_2_stub.v:6]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Base_Zynq_MPSoC_auto_pc_2' has 56 connections declared, but only 54 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5225]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_DYHZ1S' (15#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:4874]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_1XYCI6W' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5282]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_ds_3' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_ds_3' (16#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_auto_pc_3' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_auto_pc_3' (17#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_auto_pc_3_stub.v:6]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Base_Zynq_MPSoC_auto_pc_3' has 56 connections declared, but only 54 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5633]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_1XYCI6W' (18#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5282]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_OUUGIE' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5690]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_OUUGIE' (19#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5690]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_U3H7ID' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5990]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_U3H7ID' (20#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:5990]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_AU15H7' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6290]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_AU15H7' (21#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6290]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_107TL9X' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6576]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_107TL9X' (22#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6576]
+INFO: [Synth 8-6157] synthesizing module 's02_couplers_imp_1EW2V1I' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6862]
+INFO: [Synth 8-6155] done synthesizing module 's02_couplers_imp_1EW2V1I' (23#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:6862]
+INFO: [Synth 8-6157] synthesizing module 's03_couplers_imp_58LMLK' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:7148]
+INFO: [Synth 8-6155] done synthesizing module 's03_couplers_imp_58LMLK' (24#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:7148]
+INFO: [Synth 8-6157] synthesizing module 's04_couplers_imp_1P8FT34' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:7434]
+INFO: [Synth 8-6155] done synthesizing module 's04_couplers_imp_1P8FT34' (25#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:7434]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_xbar_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_xbar_0' (26#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_ps8_0_axi_periph_0' (27#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:674]
+WARNING: [Synth 8-7023] instance 'ps8_0_axi_periph' of module 'Base_Zynq_MPSoC_ps8_0_axi_periph_0' has 412 connections declared, but only 289 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:264]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_pwm_0_1' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_pwm_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_pwm_0_1' (28#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_pwm_0_1_stub.v:6]
+WARNING: [Synth 8-7023] instance 'pwm_0' of module 'Base_Zynq_MPSoC_pwm_0_1' has 5 connections declared, but only 4 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:554]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_rst_ps8_0_100M_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_rst_ps8_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_rst_ps8_0_100M_0' (29#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_rst_ps8_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_100M' of module 'Base_Zynq_MPSoC_rst_ps8_0_100M_0' has 10 connections declared, but only 6 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:559]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_system_management_wiz_0_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_system_management_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_system_management_wiz_0_0' (30#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_system_management_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'system_management_wiz_0' of module 'Base_Zynq_MPSoC_system_management_wiz_0_0' has 34 connections declared, but only 21 given [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:566]
+INFO: [Synth 8-6157] synthesizing module 'Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0' [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0' (31#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/.Xil/Vivado-13782-i80r7node2/realtime/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC' (32#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Base_Zynq_MPSoC_wrapper' (33#1) [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/hdl/Base_Zynq_MPSoC_wrapper.v:12]
+WARNING: [Synth 8-3331] design s04_couplers_imp_1P8FT34 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s04_couplers_imp_1P8FT34 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s04_couplers_imp_1P8FT34 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s04_couplers_imp_1P8FT34 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design s03_couplers_imp_58LMLK has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s03_couplers_imp_58LMLK has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s03_couplers_imp_58LMLK has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s03_couplers_imp_58LMLK has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design s02_couplers_imp_1EW2V1I has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s02_couplers_imp_1EW2V1I has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s02_couplers_imp_1EW2V1I has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s02_couplers_imp_1EW2V1I has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design s01_couplers_imp_107TL9X has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s01_couplers_imp_107TL9X has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s01_couplers_imp_107TL9X has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s01_couplers_imp_107TL9X has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_AU15H7 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_AU15H7 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_AU15H7 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_AU15H7 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m06_couplers_imp_U3H7ID has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m06_couplers_imp_U3H7ID has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m06_couplers_imp_U3H7ID has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m06_couplers_imp_U3H7ID has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m05_couplers_imp_OUUGIE has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m05_couplers_imp_OUUGIE has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m05_couplers_imp_OUUGIE has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m05_couplers_imp_OUUGIE has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m04_couplers_imp_1XYCI6W has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m04_couplers_imp_1XYCI6W has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_DYHZ1S has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_DYHZ1S has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[39]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[38]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[37]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[36]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[35]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[34]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[33]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[32]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[31]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[30]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[29]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[28]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[27]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[26]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[25]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[24]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[23]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[22]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[21]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[20]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[19]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[18]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[17]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[16]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[15]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[14]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_araddr[13]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[39]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[38]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[37]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[36]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[35]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[34]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[33]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[32]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[31]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[30]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[29]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[28]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[27]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[26]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[25]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[24]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[23]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[22]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[21]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[20]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[19]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[18]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[17]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[16]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[15]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[14]
+WARNING: [Synth 8-3331] design m02_couplers_imp_163ZI66 has unconnected port S_AXI_awaddr[13]
+WARNING: [Synth 8-3331] design m01_couplers_imp_18ZRBVX has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_18ZRBVX has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_18ZRBVX has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_18ZRBVX has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_24AFAB has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_24AFAB has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design Base_Zynq_MPSoC_ps8_0_axi_periph_0 has unconnected port M02_ARESETN
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2568.402 ; gain = 0.000 ; free physical = 9318 ; free virtual = 27273
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2568.402 ; gain = 0.000 ; free physical = 9330 ; free virtual = 27287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2568.402 ; gain = 0.000 ; free physical = 9330 ; free virtual = 27287
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0/Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_0_0/Base_Zynq_MPSoC_axi_gpio_0_0/Base_Zynq_MPSoC_axi_gpio_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_0'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_0_0/Base_Zynq_MPSoC_axi_gpio_0_0/Base_Zynq_MPSoC_axi_gpio_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_0'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_xbar_0/Base_Zynq_MPSoC_xbar_0/Base_Zynq_MPSoC_xbar_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_xbar_0/Base_Zynq_MPSoC_xbar_0/Base_Zynq_MPSoC_xbar_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_rst_ps8_0_100M_0/Base_Zynq_MPSoC_rst_ps8_0_100M_0/Base_Zynq_MPSoC_rst_ps8_0_100M_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/rst_ps8_0_100M'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_rst_ps8_0_100M_0/Base_Zynq_MPSoC_rst_ps8_0_100M_0/Base_Zynq_MPSoC_rst_ps8_0_100M_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/rst_ps8_0_100M'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/system_management_wiz_0'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/system_management_wiz_0'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_1_0/Base_Zynq_MPSoC_axi_gpio_1_0/Base_Zynq_MPSoC_axi_gpio_1_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_1'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_1_0/Base_Zynq_MPSoC_axi_gpio_1_0/Base_Zynq_MPSoC_axi_gpio_1_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_1'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_2_0/Base_Zynq_MPSoC_axi_gpio_2_0/Base_Zynq_MPSoC_axi_gpio_2_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_2'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_axi_gpio_2_0/Base_Zynq_MPSoC_axi_gpio_2_0/Base_Zynq_MPSoC_axi_gpio_2_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/axi_gpio_2'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/Simulated_Load_IP_Co_0'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/Simulated_Load_IP_Co_0'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_pwm_0_1/Base_Zynq_MPSoC_pwm_0_1/Base_Zynq_MPSoC_pwm_0_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/pwm_0'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_pwm_0_1/Base_Zynq_MPSoC_pwm_0_1/Base_Zynq_MPSoC_pwm_0_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/pwm_0'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_Measurement_Load_0_1/Base_Zynq_MPSoC_Measurement_Load_0_1/Base_Zynq_MPSoC_Measurement_Load_0_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/Measurement_Load_1'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_Measurement_Load_0_1/Base_Zynq_MPSoC_Measurement_Load_0_1/Base_Zynq_MPSoC_Measurement_Load_0_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/Measurement_Load_1'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_0/Base_Zynq_MPSoC_auto_ds_0/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_ds'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_0/Base_Zynq_MPSoC_auto_ds_0/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_ds'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_0/Base_Zynq_MPSoC_auto_pc_0/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_pc'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_0/Base_Zynq_MPSoC_auto_pc_0/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_pc'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_1/Base_Zynq_MPSoC_auto_ds_1/Base_Zynq_MPSoC_auto_ds_2_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_ds'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_1/Base_Zynq_MPSoC_auto_ds_1/Base_Zynq_MPSoC_auto_ds_2_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_ds'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_1/Base_Zynq_MPSoC_auto_pc_1/Base_Zynq_MPSoC_auto_pc_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_pc'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_1/Base_Zynq_MPSoC_auto_pc_1/Base_Zynq_MPSoC_auto_pc_1_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_pc'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_2/Base_Zynq_MPSoC_auto_ds_2/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_ds'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_2/Base_Zynq_MPSoC_auto_ds_2/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_ds'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_2/Base_Zynq_MPSoC_auto_pc_2/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_pc'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_2/Base_Zynq_MPSoC_auto_pc_2/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_pc'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_3/Base_Zynq_MPSoC_auto_ds_3/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_ds'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_ds_3/Base_Zynq_MPSoC_auto_ds_3/Base_Zynq_MPSoC_auto_ds_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_ds'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_3/Base_Zynq_MPSoC_auto_pc_3/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_pc'
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_auto_pc_3/Base_Zynq_MPSoC_auto_pc_3/Base_Zynq_MPSoC_auto_pc_0_in_context.xdc] for cell 'Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_pc'
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc]
+WARNING: [Vivado 12-180] No cells matched '*RO_inst'. [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc:1]
+WARNING: [Vivado 12-507] No nets matched '*out_ro'. [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc:2]
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Base_Zynq_MPSoC_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Base_Zynq_MPSoC_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Base_Zynq_MPSoC_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2665.883 ; gain = 0.000 ; free physical = 9269 ; free virtual = 27236
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2665.883 ; gain = 0.000 ; free physical = 9269 ; free virtual = 27236
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2665.883 ; gain = 97.480 ; free physical = 9351 ; free virtual = 27320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2665.883 ; gain = 97.480 ; free physical = 9351 ; free virtual = 27320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for Vp_Vn_0_v_n. (constraint file  /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for Vp_Vn_0_v_n. (constraint file  /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for Vp_Vn_0_v_p. (constraint file  /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for Vp_Vn_0_v_p. (constraint file  /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ip/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0/Base_Zynq_MPSoC_system_management_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/rst_ps8_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/system_management_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/axi_gpio_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/Simulated_Load_IP_Co_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/pwm_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/Measurement_Load_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m02_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m03_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Base_Zynq_MPSoC_i/ps8_0_axi_periph/m04_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2665.883 ; gain = 97.480 ; free physical = 9351 ; free virtual = 27319
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 2665.883 ; gain = 97.480 ; free physical = 9352 ; free virtual = 27321
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 2665.883 ; gain = 97.480 ; free physical = 9335 ; free virtual = 27309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Base_Zynq_MPSoC_i/zynq_ultra_ps_e_0/pl_clk0' to pin 'Base_Zynq_MPSoC_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:01:41 . Memory (MB): peak = 3091.496 ; gain = 523.094 ; free physical = 8601 ; free virtual = 26622
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:01:41 . Memory (MB): peak = 3092.488 ; gain = 524.086 ; free physical = 8596 ; free virtual = 26617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:01:41 . Memory (MB): peak = 3106.457 ; gain = 538.055 ; free physical = 8573 ; free virtual = 26595
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8672 ; free virtual = 26694
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8672 ; free virtual = 26693
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8680 ; free virtual = 26701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8679 ; free virtual = 26701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8677 ; free virtual = 26699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8673 ; free virtual = 26695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------------------+----------+
+|      |BlackBox name                             |Instances |
++------+------------------------------------------+----------+
+|1     |Base_Zynq_MPSoC_xbar_0                    |         1|
+|2     |Base_Zynq_MPSoC_auto_ds_0                 |         1|
+|3     |Base_Zynq_MPSoC_auto_pc_0                 |         1|
+|4     |Base_Zynq_MPSoC_auto_ds_1                 |         1|
+|5     |Base_Zynq_MPSoC_auto_pc_1                 |         1|
+|6     |Base_Zynq_MPSoC_auto_ds_2                 |         1|
+|7     |Base_Zynq_MPSoC_auto_pc_2                 |         1|
+|8     |Base_Zynq_MPSoC_auto_ds_3                 |         1|
+|9     |Base_Zynq_MPSoC_auto_pc_3                 |         1|
+|10    |Base_Zynq_MPSoC_Measurement_Load_0_1      |         1|
+|11    |Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0  |         1|
+|12    |Base_Zynq_MPSoC_axi_gpio_0_0              |         1|
+|13    |Base_Zynq_MPSoC_axi_gpio_1_0              |         1|
+|14    |Base_Zynq_MPSoC_axi_gpio_2_0              |         1|
+|15    |Base_Zynq_MPSoC_pwm_0_1                   |         1|
+|16    |Base_Zynq_MPSoC_rst_ps8_0_100M_0          |         1|
+|17    |Base_Zynq_MPSoC_system_management_wiz_0_0 |         1|
+|18    |Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0       |         1|
++------+------------------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------------------+------+
+|      |Cell                                      |Count |
++------+------------------------------------------+------+
+|1     |Base_Zynq_MPSoC_Measurement_Load_0_1      |     1|
+|2     |Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0  |     1|
+|3     |Base_Zynq_MPSoC_auto_ds_0                 |     1|
+|4     |Base_Zynq_MPSoC_auto_ds_1                 |     1|
+|5     |Base_Zynq_MPSoC_auto_ds_2                 |     1|
+|6     |Base_Zynq_MPSoC_auto_ds_3                 |     1|
+|7     |Base_Zynq_MPSoC_auto_pc_0                 |     1|
+|8     |Base_Zynq_MPSoC_auto_pc_1                 |     1|
+|9     |Base_Zynq_MPSoC_auto_pc_2                 |     1|
+|10    |Base_Zynq_MPSoC_auto_pc_3                 |     1|
+|11    |Base_Zynq_MPSoC_axi_gpio_0_0              |     1|
+|12    |Base_Zynq_MPSoC_axi_gpio_1_0              |     1|
+|13    |Base_Zynq_MPSoC_axi_gpio_2_0              |     1|
+|14    |Base_Zynq_MPSoC_pwm_0_1                   |     1|
+|15    |Base_Zynq_MPSoC_rst_ps8_0_100M_0          |     1|
+|16    |Base_Zynq_MPSoC_system_management_wiz_0_0 |     1|
+|17    |Base_Zynq_MPSoC_xbar_0                    |     1|
+|18    |Base_Zynq_MPSoC_zynq_ultra_ps_e_0_0       |     1|
+|19    |IBUF                                      |     8|
+|20    |OBUF                                      |     5|
++------+------------------------------------------+------+
+
+Report Instance Areas: 
++------+---------------------+-----------------------------------+------+
+|      |Instance             |Module                             |Cells |
++------+---------------------+-----------------------------------+------+
+|1     |top                  |                                   |  6349|
+|2     |  Base_Zynq_MPSoC_i  |Base_Zynq_MPSoC                    |  6336|
+|3     |    ps8_0_axi_periph |Base_Zynq_MPSoC_ps8_0_axi_periph_0 |  5378|
+|4     |      m00_couplers   |m00_couplers_imp_24AFAB            |   525|
+|5     |      m02_couplers   |m02_couplers_imp_163ZI66           |   417|
+|6     |      m03_couplers   |m03_couplers_imp_DYHZ1S            |   525|
+|7     |      m04_couplers   |m04_couplers_imp_1XYCI6W           |   525|
++------+---------------------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.336 ; gain = 551.934 ; free physical = 8673 ; free virtual = 26694
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:01:30 . Memory (MB): peak = 3120.336 ; gain = 454.453 ; free physical = 8705 ; free virtual = 26727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:01:43 . Memory (MB): peak = 3120.340 ; gain = 551.934 ; free physical = 8718 ; free virtual = 26739
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3155.023 ; gain = 0.000 ; free physical = 8658 ; free virtual = 26679
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+84 Infos, 117 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:02:14 . Memory (MB): peak = 3155.023 ; gain = 1420.672 ; free physical = 8750 ; free virtual = 26772
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3155.023 ; gain = 0.000 ; free physical = 8750 ; free virtual = 26772
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/Base_Zynq_MPSoC_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Base_Zynq_MPSoC_wrapper_utilization_synth.rpt -pb Base_Zynq_MPSoC_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  5 15:17:29 2023...

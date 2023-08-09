@@ -1,0 +1,21 @@
+20:05:58 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+'Building file: ../src/xsysmonpsu_polled_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xsysmonpsu_polled_example.o" -I../../hello_world_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xsysmonpsu_polled_example.d" -MT"src/xsysmonpsu_polled_example.o" -o "src/xsysmonpsu_polled_example.o" "../src/xsysmonpsu_polled_example.c"
+'Finished building: ../src/xsysmonpsu_polled_example.c'
+' '
+'Building target: hello_world.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/psu_cortexa53_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o ./src/system_test.o ./src/xgpio_tapp_example.o ./src/xscugic_tapp_example.o ./src/xsysmonpsu_intr_example.o ./src/xsysmonpsu_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello_world.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  68216	   7736	  20984	  96936	  17aa8	hello_world.elf
+'Finished building: hello_world.elf.size'
+' '
+
+20:05:59 Build Finished (took 965ms)
+

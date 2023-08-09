@@ -1,0 +1,6 @@
+1567526821733	Delete resource 'sysmon/sysmon'
+1567527043811	Delete resource 'sysmon'
+1567527135935	Delete resource 'sysmon'
+1567527477123	Delete resource 'sysmon/src/peripheral/interrupts'
+1567529273892	Delete resource 'sysmon/src/xsysmon/xsysmon_extmux_example.c'
+1567529880469	Delete resource 'sysmon/src/xsysmon/xsysmon_aux_polled_example.c'

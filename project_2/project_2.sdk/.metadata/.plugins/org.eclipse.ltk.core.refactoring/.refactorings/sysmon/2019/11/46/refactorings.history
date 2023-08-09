@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sysmon/src/peripheral/pmodtmp2&apos; to &apos;pmodtmp2.c&apos;" description="Rename resource &apos;pmodtmp2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/peripheral/pmodtmp2" name="pmodtmp2.c" stamp="1573720478999" updateReferences="true"/>
+</session>

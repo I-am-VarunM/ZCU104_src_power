@@ -1,0 +1,1079 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 11616
+License: Customer
+
+Current time: 	Mon Jun 05 11:31:19 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.90.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :52.0
+Screen size: 1920x1029
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	manvar00
+User home directory: /home/manvar00
+User working directory: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /Software/xilinx/2019.1-sdx/Vivado
+HDI_APPROOT: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+RDI_DATADIR: /Software/xilinx/2019.1-sdx/Vivado/2019.1/data
+RDI_BINDIR: /Software/xilinx/2019.1-sdx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/manvar00/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/manvar00/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/manvar00/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/vivado.log
+Vivado journal file location: 	/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-11616-i80r7node2
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /Software/xilinx/2019.1-sdx/Vivado/2019.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@i80license.irf.uni-karlsruhe.de
+XILINX_DSP: /Software/xilinx/2019.1-sdx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+XILINX_SDK: /Software/xilinx/2019.1-sdx/SDK/2019.1
+XILINX_SDX: /Software/xilinx/2019.1-sdx/SDx/2019.1
+XILINX_VIVADO: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+XILINX_VIVADO_HLS: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 5,120 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,120 MB. GUI used memory: 46 MB. Current time: 6/5/23, 11:31:21 AM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr");
+// Opening Vivado Project: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,145 MB. GUI used memory: 46 MB. Current time: 6/5/23, 11:33:21 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+95372kb) [00:02:21]
+// [Engine Memory]: 5,194 MB (+5294582kb) [00:02:21]
+// [GUI Memory]: 111 MB (+13505kb) [00:02:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  3112 ms.
+// Tcl Message: open_project {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Carina/KIT/ma_ck/zcu104_src_fixed_volt/project_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2019.1-sdx/Vivado/2019.1/data/ip'. 
+// Project name: project_2; location: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2; part: xczu7ev-ffvc1156-2-e
+// 'i' command handler elapsed time: 27 seconds
+// [GUI Memory]: 123 MB (+6804kb) [00:02:25]
+// Elapsed time: 21 seconds
+dismissDialog("Open Project"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,337 MB. GUI used memory: 75 MB. Current time: 6/5/23, 11:33:37 AM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 6748.816 ; gain = 205.730 ; free physical = 362 ; free virtual = 28369 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 130 MB (+724kb) [00:02:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 5,518 MB (+67237kb) [00:02:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,638 MB. GUI used memory: 75 MB. Current time: 6/5/23, 11:34:06 AM CEST
+// Elapsed time: 65 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 2); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 2); // B (F, cl)
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [Engine Memory]: 5,830 MB (+37991kb) [00:03:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,830 MB. GUI used memory: 78 MB. Current time: 6/5/23, 11:35:01 AM CEST
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd)]", 2); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper)]", 5); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v)]", 6); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v), inst : Simulated_Load_IP_Core (Simulated_Load_IP_Core.v)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v), inst : Simulated_Load_IP_Core (Simulated_Load_IP_Core.v), genblk1[3].Load_coarse_inst : Load (Load.v)]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 27, 21); // cl (w, cl)
+typeControlKey((HResource) null, "Simulated_Load_IP_Core.v", 'v'); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,864 MB. GUI used memory: 78 MB. Current time: 6/5/23, 11:35:41 AM CEST
+// Elapsed time: 170 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 179, 366); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 290, 406); // cl (w, cl)
+selectCodeEditor("Simulated_Load_IP_Core.v", 282, 395); // cl (w, cl)
+// [GUI Memory]: 137 MB (+603kb) [00:07:50]
+// Elapsed time: 18 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 94, 382); // cl (w, cl)
+selectCodeEditor("Simulated_Load_IP_Core.v", 289, 394); // cl (w, cl)
+selectCodeEditor("Simulated_Load_IP_Core.v", 122, 416); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 99, 368); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 208, 334); // cl (w, cl)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,968 MB. GUI used memory: 79 MB. Current time: 6/5/23, 11:40:11 AM CEST
+// Elapsed time: 23 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// [Engine Memory]: 6,219 MB (+102014kb) [00:09:25]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,287 MB. GUI used memory: 79 MB. Current time: 6/5/23, 11:40:37 AM CEST
+// Elapsed time: 67 seconds
+selectCodeEditor("Simulated_Load_IP_Core.v", 131, 335); // cl (w, cl)
+typeControlKey((HResource) null, "Simulated_Load_IP_Core.v", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,328 MB. GUI used memory: 79 MB. Current time: 6/5/23, 11:41:31 AM CEST
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,394 MB. GUI used memory: 86 MB. Current time: 6/5/23, 11:41:51 AM CEST
+// Elapsed time: 15 seconds
+String[] filenames31467 = {"/home/manvar00/Downloads/mal_bitstream_cleaned-two_attax-delayMonsZCU102PR.srcs-srcs_benchmarks/delayMonsZCU102PR.srcs/srcs_benchmarks/multiple_headers/switch_el_bench0.vhd", "/home/manvar00/Downloads/mal_bitstream_cleaned-two_attax-delayMonsZCU102PR.srcs-srcs_benchmarks/delayMonsZCU102PR.srcs/srcs_benchmarks/multiple_headers/switch_el_benchmaster0.vhd"};
+setFileChooser(filenames31467);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories"); // a (E, c)
+// Elapsed time: 16 seconds
+setFolderChooser("/home/manvar00/Downloads/mal_bitstream_cleaned-two_attax-delayMonsZCU102PR.srcs-srcs_benchmarks/delayMonsZCU102PR.srcs/srcs_benchmarks/ava");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 41 seconds
+dismissDialog("Add Sources"); // c (cl)
+// [GUI Memory]: 147 MB (+2992kb) [00:11:06]
+// c (cl): Add Sources: addNotify
+// by (c):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (StateMonitor Timer) is taking 984ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 6,502 MB. GUI used memory: 92 MB. Current time: 6/5/23, 11:42:21 AM CEST
+// [Engine Memory]: 6,604 MB (+78345kb) [00:11:13]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 8067.402 ; gain = 117.637 ; free physical = 3289 ; free virtual = 28819 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (StateMonitor Timer) is taking 1972ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1972 ms.
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+dismissDialog("Add Sources"); // by (c)
+// [GUI Memory]: 161 MB (+6916kb) [00:11:39]
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,532 MB. GUI used memory: 93 MB. Current time: 6/5/23, 11:43:46 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 6,810 MB. GUI used memory: 93 MB. Current time: 6/5/23, 11:44:11 AM CEST
+// [Engine Memory]: 7,025 MB (+94616kb) [00:13:07]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HTimer (StateMonitor Timer) is taking 1488ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1488 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 7,139 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:44:26 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 7,270 MB. GUI used memory: 93 MB. Current time: 6/5/23, 11:45:16 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1277 ms. Increasing delay to 3831 ms.
+// Elapsed time: 282 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2, true); // B (F, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, BMU.v]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, TraceBack.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, decide.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, interleaver.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, mem.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, rsc.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, seq_acs.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, survivormem.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, turboSram.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, turboSram.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, turboSram.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, turboSram.v]", -1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, turboSram.v]", -1, false); // B (F, cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'c' command handler elapsed time: 6 seconds
+dismissDialog("Remove Sources"); // aE (cl)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/BMU.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/TraceBack.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/decide.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/interleaver.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/mem.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/rsc.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/seq_acs.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/survivormem.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/turboSram.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cl): Remove Sources: addNotify
+// by (aE):  Remove Sources : addNotify
+dismissDialog("Remove Sources"); // by (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, switch_elements(avaz) (cpe0_logic_core.vhd)]", 32, false); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 7,388 MB. GUI used memory: 95 MB. Current time: 6/5/23, 11:47:36 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 7,539 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:48:26 AM CEST
+// [Engine Memory]: 7,386 MB (+11029kb) [00:17:23]
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_rs_decode (top_rs_decode.v)]", 4, false); // B (F, cl)
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), system_management_wiz_0 : Base_Zynq_MPSoC_system_management_wiz_0_0 (Base_Zynq_MPSoC_system_management_wiz_0_0.xci)]", 20); // B (F, cl)
+// A (cl): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 3); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, switch_elements(avaz) (cpe0_logic_core.vhd)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_rs_decode (top_rs_decode.v)]", 5, false); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 7,615 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:49:11 AM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, modified_euclid_alg (modified_euclid_alg.v)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, modified_euclid_alg (modified_euclid_alg.v)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chien_search_alg217 (chien_search_alg217.v)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chien_search_alg221 (chien_search_alg221.v)]", 9, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chien_search_alg225 (chien_search_alg225.v)]", 10, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chien_search_alg233 (chien_search_alg233.v)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chien_search_alg237 (chien_search_alg237.v)]", 12, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 13, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 13, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 13, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 13, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_Generator(Behavioral) (pwm_generator.vhdl)]", 13, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, io_expander (io_expander.v)]", 18, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, patternGen(Behavioral) (patternGen.vhd)]", 19, false); // B (F, cl)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zigzag (zigzag.v)]", 124, false, true, false, false, false, false); // B (F, cl) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, switch_elements(avaz) (cpe0_logic_core.vhd)]", 4, false, true, false, false, false, false); // B (F, cl) - Shift Key
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE (cl)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/ava/cpe0_logic_core.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/top_rs_decode.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/Load.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/modified_euclid_alg.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg217.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg221.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg225.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg233.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg237.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/pwm_generator.vhdl}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/io_expander.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/patterngen/rtl/patternGen.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/pwm_driver.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/threshold_compute.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/simple_spi/rtl/verilog/simple_spi_top.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_1024_16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_1024_18.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_1024_8.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_2048_8.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_256_16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_256_18.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_256_8.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_512_16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_512_18.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_512_8.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/jpeg/dct_syn.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/dpram.v}}] -no_script -reset -force -quiet 
+// aE (cl): Remove Sources: addNotify
+// by (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/jpeg/mult.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/BasicRSA/rtl/vhdl/rsatest16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/tpram.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/turbo/mult.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/Multi_Xor.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/Xor10.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/absolute_values.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/dct.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/dct_mac.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/dct_syn.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/dctu.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/dctub.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_input_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/delay_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/des/rtl/verilog/area_opt/des.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/des/rtl/verilog/area_opt/des3.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_locator_polyn_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_locator_polyn_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_position.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/fading.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/fdct.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gen_poly_roots.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gf_multiplier_L.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gf_multiplier_Q.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gf_multiplier_R.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gf_multiplier_U.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/gf_multiplier_forney.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/input_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/des/rtl/verilog/area_opt/key_sel.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/keygrid_4x4.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mod_syndr_polyn_Q.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mod_syndr_polyn_Q_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mult_by_32.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mult_by_32_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/omega_buffer.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/omega_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/pwm_generator.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/rng_width512_taps3.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/rng_width512_taps6.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/sigma_buffer_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/sigma_buffer_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier3.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier4.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/new/split_gpio.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/module syndrome.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes217.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes221.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes225.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes233.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes237.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/BasicRSA/rtl/vhdl/Testmult.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/ultimate_crc/vhdl/ucrc_par.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/ultimate_crc/vhdl/ucrc_ser.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/unsigned_divider.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/unsigned_multiplier.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/dct/zigzag.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Remove Sources"); // by (aE)
+// WARNING: HTimer (StateMonitor Timer) is taking 1688ms to process. Increasing delay to 7000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1688 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 7,707 MB. GUI used memory: 95 MB. Current time: 6/5/23, 11:50:16 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 613ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 7,799 MB. GUI used memory: 95 MB. Current time: 6/5/23, 11:50:31 AM CEST
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 8,007 MB (+263393kb) [00:19:30]
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 8,120 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:51:06 AM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 8,253 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:51:31 AM CEST
+// Elapsed time: 196 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xcounter(Behavioral) (xcounter.vhd)]", 35, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, erasure_generator (erasure_generator.v)]", 4, false, true, false, false, false, false); // B (F, cl) - Shift Key
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cl): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cl)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_generator.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/modified_euclid_alg_0.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/modified_euclid_alg_1.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/modified_euclid_alg_2.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/chien_search_alg_0.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/gpio_port.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_2048_16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_2048_18.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_4096_16.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_4096_18.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/cf_fft/cf_fft_4096_8.vhd}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/GF_256_elements.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/debounce.vhd}}] -no_script -reset -force -quiet 
+// aE (cl): Remove Sources: addNotify
+// by (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_erasure_flags_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/decoder_input_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/delay_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_locator_polyn.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_locator_polyn_0.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/erasure_position_cal.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/fifo.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/simple_spi/rtl/verilog/fifo4.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/des/rtl/verilog/area_opt/key_sel3.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/modified_syndrome_polyn.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/omega_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/register_file.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/sigma_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/spi_interface.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/syndromes.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/patterngen/rtl/xcounter.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Remove Sources"); // by (aE)
+// WARNING: HTimer (StateMonitor Timer) is taking 1564ms to process. Increasing delay to 8000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1564 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 8,345 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:53:21 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2006 ms. Increasing delay to 6018 ms.
+// Elapsed time: 334 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, keypad_controller (keypad_controller.v)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_Polynomial (L_Polynomial_bb.v)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_Polynomial_1 (L_Polynomial_1_bb.v)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_Polynomial_2 (L_Polynomial_2_bb.v)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_buffer (L_buffer_bb.v)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_buffer_1 (L_buffer_1_bb.v)]", 9, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, L_buffer_2 (L_buffer_2_bb.v)]", 10, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_Polynomial (Q_Polynomial_bb.v)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_Polynomial_1 (Q_Polynomial_1_bb.v)]", 12, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_Polynomial_2 (Q_Polynomial_2_bb.v)]", 13, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_buffer (Q_buffer_bb.v)]", 14, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_buffer_1 (Q_buffer_1_bb.v)]", 15, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Q_buffer_2 (Q_buffer_2_bb.v)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_Polynomial (R_Polynomial_bb.v)]", 17, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_Polynomial_1 (R_Polynomial_1_bb.v)]", 18, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_Polynomial_2 (R_Polynomial_2_bb.v)]", 19, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_buffer (R_buffer_bb.v)]", 20, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_buffer_1 (R_buffer_1_bb.v)]", 21, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, R_buffer_2 (R_buffer_2_bb.v)]", 22, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_Polynomial (U_Polynomial_bb.v)]", 23, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_Polynomial_1 (U_Polynomial_1_bb.v)]", 24, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_Polynomial_2 (U_Polynomial_2_bb.v)]", 25, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_buffer (U_buffer_bb.v)]", 26, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_buffer_1 (U_buffer_1_bb.v)]", 27, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, U_buffer_2 (U_buffer_2_bb.v)]", 28, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, absolute_values (absolute_values_bb.v)]", 29, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, derivative_buffer (derivative_buffer_bb.v)]", 30, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, derivative_buffer_1 (derivative_buffer_1_bb.v)]", 31, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fading (fading_bb.v)]", 32, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpio_read_pins (gpio_read_pins.v)]", 33, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, input_buffer (input_buffer_bb.v)]", 34, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_by_32 (mult_by_32_bb.v)]", 35, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mult_by_32_2 (mult_by_32_2_bb.v)]", 36, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, omega_buffer (omega_buffer_bb.v)]", 37, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sigma_buffer (sigma_buffer_bb.v)]", 38, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sigma_buffer_1 (sigma_buffer_1_bb.v)]", 39, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signed_multiplier (signed_multiplier_bb.v)]", 40, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signed_multiplier2 (signed_multiplier2_bb.v)]", 41, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signed_multiplier3 (signed_multiplier3_bb.v)]", 42, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, signed_multiplier4 (signed_multiplier4_bb.v)]", 43, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, unsigned_divider (unsigned_divider_bb.v)]", 44, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, unsigned_multiplier (unsigned_multiplier_bb.v)]", 45, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 46, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 47, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 46, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, unsigned_multiplier (unsigned_multiplier_bb.v)]", 45, false); // B (F, cl)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cl): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete  project local files/directories from disk", false); // g (Q, aE): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cl)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/keypad_controller.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_Polynomial_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/L_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_Polynomial_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/Q_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_Polynomial_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/R_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_Polynomial_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/U_buffer_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/absolute_values_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/derivative_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/fading_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/GH09/gpio_read_pins.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/input_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mult_by_32_bb.v}}] -no_script -reset -force -quiet 
+// aE (cl): Remove Sources: addNotify
+// by (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/mult_by_32_2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/omega_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/sigma_buffer_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/sigma_buffer_1_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier2_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier3_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/signed_multiplier4_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/unsigned_divider_bb.v}}] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/imports/srcs_benchmarks/three_rs_255_n/unsigned_multiplier_bb.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Remove Sources"); // by (aE)
+// [Engine Memory]: 8,453 MB (+47616kb) [00:28:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 8,613 MB. GUI used memory: 94 MB. Current time: 6/5/23, 11:59:17 AM CEST
+// Elapsed time: 108 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cS, cl)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// by (cl):  Refresh Changed Modules : addNotify
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// Tcl Message: update_module_reference Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps_e_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1457 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Upgrading '/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/Base_Zynq_MPSoC.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 to use current project options 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/Base_Zynq_MPSoC.bd>  Wrote  : </home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/ui/bd_1f8d8c75.ui>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 10087.055 ; gain = 0.000 ; free physical = 985 ; free virtual = 26373 update_module_reference: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 10087.055 ; gain = 0.000 ; free physical = 985 ; free virtual = 26373 
+dismissDialog("Refresh Changed Modules"); // by (cl)
+// WARNING: HTimer (StateMonitor Timer) is taking 1927ms to process. Increasing delay to 9000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1927 ms.
+// Elapsed time: 107 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd)]", 4); // B (F, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aK (aH, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Implementation Out-of-date ; 2.3732402324676514 ; 0.0 ; 0.018175017088651657 ; 0.0 ; 0.0 ; 3.481207847595215 ; 0 ; 23549 ; 7079 ; 0.0 ; 0 ; 1 ; Tue Jan 01 00:00:00 CET 1980 ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xczu7ev-ffvc1156-2-e ; DESKTOP-G3QMJB5 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.4s
+selectButton(PAResourceEtoH.ExploreAheadView_RESET_SELECTED_RUNS, "Design Runs_reset"); // B (f, cl)
+// r (cl): Reset Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a (r)
+// r (cl): Reset Runs: addNotify
+// by (r):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.9s
+// Tcl Message: reset_run impl_1 
+dismissDialog("Resetting Runs"); // by (r)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 0.0 ; 0 ; 0 ; Tue Jan 01 00:00:00 CET 1980 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xczu7ev-ffvc1156-2-e ; DESKTOP-G3QMJB5 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ay (O, cl) - Node
+selectButton(PAResourceEtoH.ExploreAheadView_RESET_SELECTED_RUNS, "Design Runs_reset"); // B (f, cl)
+// r (cl): Reset Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a (r)
+// r (cl): Reset Runs: addNotify
+// by (r):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // by (r)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cl)
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 53 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 8,597 MB. GUI used memory: 85 MB. Current time: 6/5/23, 12:04:12 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/Base_Zynq_MPSoC.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.v 
+// Tcl Message: VHDL Output written to : /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/sim/Base_Zynq_MPSoC.v VHDL Output written to : /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/hdl/Base_Zynq_MPSoC_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m00_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m02_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m02_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m03_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m03_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m04_couplers/auto_ds . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/m04_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/hw_handoff/Base_Zynq_MPSoC.hwh Generated Block Design Tcl file /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/hw_handoff/Base_Zynq_MPSoC_bd.tcl Generated Hardware Definition File /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/sources_1/bd/Base_Zynq_MPSoC/synth/Base_Zynq_MPSoC.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 8,655 MB. GUI used memory: 79 MB. Current time: 6/5/23, 12:04:27 PM CEST
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:57 ; elapsed = 00:00:40 . Memory (MB): peak = 10403.859 ; gain = 225.062 ; free physical = 726 ; free virtual = 26149 
+// Elapsed time: 40 seconds
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 3761ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3761 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1821ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1822 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 9317 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3302 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6190 ms. Increasing delay to 18570 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 227 ms. Decreasing delay to 2227 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 648ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking 2741ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2741 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 479ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3940 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4253 ms. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 2170ms to process. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2170 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 6196ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6196 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6246 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking 12004ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  12004 ms.
+// Thread: Image Animator 0
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.i.j.aK.imageUpdate(SourceFile:97)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink.lambda$update$0(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink$$Lambda$151/1956207540.run(Unknown Source)
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink.update(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink.newInfo(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched.newInfo(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageRepresentation.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.image.ImageFilter.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageDecoder.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifFrame.dispose(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.produceImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.run(Unknown Source)
+// Thread: Thread-2420
+// Thread: SyntheticaAnimation 25
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Update Runs Swing Worker
+// 	at ui.project.projecti.HAPRRunMgr_updateAllRuns(Native Method)
+// 	at ui.data.experiment.y.aKw(SourceFile:190)
+// 	at ui.data.experiment.A.construct(SourceFile:326)
+// 	at ui.frmwork.y.run(SourceFile:205)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Thread-2425
+// Thread: Thread-1277
+// Thread: Thread-2430
+// Thread: Thread-45
+// Thread: AWT-Shutdown
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.AWTAutoShutdown.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Batik CleanerThread
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: Thread-2419
+// Thread: Image Animator 0
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.parseImage(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.readImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.produceImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.run(Unknown Source)
+// Thread: Thread-810
+// Thread: Thread-2424
+// Thread: Thread-1281
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.lnf.b.run(SourceFile:100)
+// Thread: TimerQueue
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.desktop@9.0.4/javax.swing.Timer.post(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.TimerQueue.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Java2D Disposer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.desktop@9.0.4/sun.java2d.Disposer.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Common-Cleaner
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.ref.CleanerImpl.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.misc.InnocuousThread.run(Unknown Source)
+// Thread: main
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.b(SourceFile:1095)
+// 	at ui.PlanAhead.jswMain(SourceFile:1150)
+// Thread: Thread-2426
+// Thread: Attach Listener
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Refresh Filesets Swing Worker
+// 	at ui.data.design.dai.HADAFileMgr_refreshFileSets(Native Method)
+// 	at ui.data.design.o.aij(SourceFile:2133)
+// 	at ui.data.design.o.aii(SourceFile:2124)
+// 	at ui.data.design.y.construct(SourceFile:2502)
+// 	at ui.frmwork.y.run(SourceFile:205)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Reference Handler
+// 	at java.base@9.0.4/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.Reference.processPendingReferences(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference.access$000(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+// Thread: Thread-1
+// Thread: AWT-EventQueue-1
+// 	at ui.frmwork.b.d.a(SourceFile:168)
+// 	at ui.frmwork.b.d.dispatchEvent(SourceFile:87)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.run(Unknown Source)
+// Thread: Thread-2421
+// Thread: Thread-67
+// Thread: Monitor HEventQueue
+// 	at java.base@9.0.4/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@9.0.4/java.lang.Thread.getAllStackTraces(Unknown Source)
+// 	at ui.utils.d.c.eAO(SourceFile:484)
+// 	at ui.frmwork.b.e.construct(SourceFile:140)
+// 	at ui.frmwork.y.run(SourceFile:205)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: AWT-XAWT
+// 	at java.desktop@9.0.4/sun.awt.X11.XToolkit.waitForEvents(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.X11.XToolkit.run(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.X11.XToolkit.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaCleanerThread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1847)
+// Thread: Finalizer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+// Thread: Thread-2422
+// Thread: hw_ila_monitor
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: Thread-2423
+// Thread: Process Messages
+// 	at ui.data.msgmgr.messagemanageri.getMessages(Native Method)
+// 	at ui.frmwork.d.l.b(SourceFile:85)
+// 	at ui.frmwork.d.f.eeo(SourceFile:272)
+// 	at ui.frmwork.d.h.construct(SourceFile:141)
+// 	at ui.frmwork.y.run(SourceFile:205)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Thread-2431
+// Thread: SyntheticaAnimation 70
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Image Animator 3
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink.update(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched$WeakLink.newInfo(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageWatched.newInfo(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageRepresentation.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.image.ImageFilter.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageDecoder.imageComplete(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifFrame.dispose(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.readImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.produceImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.run(Unknown Source)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 14282 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  11383 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  66590 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 4872ms to process. Increasing delay to 11000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4872 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 95511 ms. Increasing delay to 286533 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 67544 ms. Increasing delay to 7000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1669 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3355 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 517ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  7624 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 733ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  23261 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 19066 ms. Increasing delay to 8000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2050 ms.
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 231 ms. Decreasing delay to 2231 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 8,749 MB. GUI used memory: 88 MB. Current time: 6/5/23, 12:15:00 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1775 ms. Increasing delay to 5325 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 8,758 MB. GUI used memory: 86 MB. Current time: 6/5/23, 12:45:00 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 8,993 MB (+123605kb) [01:21:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 8,995 MB. GUI used memory: 85 MB. Current time: 6/5/23, 12:53:12 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 9,116 MB. GUI used memory: 89 MB. Current time: 6/5/23, 1:19:30 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 8,957 MB. GUI used memory: 83 MB. Current time: 6/5/23, 1:49:30 PM CEST
+// Elapsed time: 7032 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 8,957 MB. GUI used memory: 82 MB. Current time: 6/5/23, 2:19:30 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 1096 seconds
+closeMainWindow("project_2 - [/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr] - Vivado 2019.1"); // cl
+// A (cl): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)

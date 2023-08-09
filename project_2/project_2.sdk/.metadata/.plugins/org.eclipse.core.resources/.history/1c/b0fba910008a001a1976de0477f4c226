@@ -1,0 +1,15 @@
+#define RUN_NOT_STANDALONE
+
+/*
+ * feature_extraction.h
+ *
+ *  Created on: Mar 18, 2020
+ *      Author: Carina
+ */
+
+#ifndef SRC_CLASSIFIER_FEATURE_EXTRACTION_H_
+#define SRC_CLASSIFIER_FEATURE_EXTRACTION_H_
+
+
+double spkt_welch_density(double values[], int length, int coef);
+#endif /* SRC_CLASSIFIER_FEATURE_EXTRACTION_H_ */

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun  5 14:39:25 2023
+# Process ID: 6227
+# Current directory: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2
+# Command line: vivado
+# Log file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/vivado.log
+# Journal file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr
+INFO: [Project 1-313] Project file moved from '/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Using_IP_with_Zynq/lab1/hls_macc/vhls_prj/solution1/impl/ip'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Introduction/lab1/lab1/solution1/impl/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Using_IP_with_Zynq/lab1/hls_macc/vhls_prj/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Introduction/lab1/lab1/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2019.1-sdx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 6742.176 ; gain = 197.547 ; free physical = 11644 ; free virtual = 29180
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jun  5 15:14:49 2023] Launched synth_1...
+Run output will be captured here: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/synth_1/runme.log
+[Mon Jun  5 15:14:49 2023] Launched impl_1...
+Run output will be captured here: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:35:33 ; elapsed = 00:31:04 . Memory (MB): peak = 7145.824 ; gain = 127.621 ; free physical = 10868 ; free virtual = 28534
+file copy -force /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/impl_1/Base_Zynq_MPSoC_wrapper.sysdef /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
+
+launch_sdk -workspace /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

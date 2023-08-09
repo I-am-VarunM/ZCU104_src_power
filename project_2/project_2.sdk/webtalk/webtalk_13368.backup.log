@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Mon May  4 14:51:06 2020
+# Process ID: 13368
+# Current directory: C:/Users/Carina/KIT/ma_ck/zcu104_src_fixed/project_2/project_2.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Carina/KIT/ma_ck/zcu104_src_fixed/project_2/project_2.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Carina/KIT/ma_ck/zcu104_src_fixed/project_2/project_2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
+# webtalk_init -webtalk_dir C:\\Users\\Carina\\KIT\\ma_ck\\zcu104_src_fixed\\project_2\\project_2.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2020-05-04 14:51:05" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "SDK v2019.1" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2019.1" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "174111760_174111761_210687036_145" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "SDK" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "ilt39ajvhkv0nr61hs45203cj4" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2019.1_12" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "12" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "3300 MHz" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "17.009 GB" -context "user_environment"
+# webtalk_register_client -client sdk
+# webtalk_add_data -client sdk -key uid -value "1588596302108" -context "sdk\\\\bsp/1588596302108"
+# webtalk_add_data -client sdk -key hwid -value "1588595818699" -context "sdk\\\\bsp/1588596302108"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\bsp/1588596302108"
+# webtalk_add_data -client sdk -key apptemplate -value "null" -context "sdk\\\\bsp/1588596302108"
+# webtalk_add_data -client sdk -key RecordType -value "BSPCreation" -context "sdk\\\\bsp/1588596302108"
+# webtalk_add_data -client sdk -key uid -value "NA" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key RecordType -value "ToolUsage" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key BootgenCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key DebugCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key PerfCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key FlashCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key CrossTriggCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_add_data -client sdk -key QemuDebugCount -value "0" -context "sdk\\\\bsp/1588596665274"
+# webtalk_transmit -clientid 1418193648 -regid "174111760_174111761_210687036_145" -xml C:\\Users\\Carina\\KIT\\ma_ck\\zcu104_src_fixed\\project_2\\project_2.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html C:\\Users\\Carina\\KIT\\ma_ck\\zcu104_src_fixed\\project_2\\project_2.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm C:\\Users\\Carina\\KIT\\ma_ck\\zcu104_src_fixed\\project_2\\project_2.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+INFO: [Common 17-186] 'C:\Users\Carina\KIT\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\webtalk\usage_statistics_ext_sdk.xml' has been successfully sent to Xilinx on Mon May  4 14:54:22 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/SDK/2019.1/doc/webtalk_introduction.html.
+# webtalk_terminate
+INFO: [Common 17-206] Exiting Webtalk at Mon May  4 14:54:22 2020...

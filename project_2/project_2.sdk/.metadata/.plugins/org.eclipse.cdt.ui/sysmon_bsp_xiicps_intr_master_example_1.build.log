@@ -1,0 +1,28 @@
+00:18:51 **** Auto Build of configuration Debug for project sysmon_bsp_xiicps_intr_master_example_1 ****
+make all 
+'Building file: ../src/xiicps_intr_master_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_intr_master_example.o" -I../../sysmon_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xiicps_intr_master_example.d" -MT"src/xiicps_intr_master_example.o" -o "src/xiicps_intr_master_example.o" "../src/xiicps_intr_master_example.c"
+../src/xiicps_intr_master_example.c: In function 'IicPsMasterIntrExample':
+../src/xiicps_intr_master_example.c:167:6: warning: unused variable 'tmp' [-Wunused-variable]
+  int tmp;
+      ^~~
+../src/xiicps_intr_master_example.c:166:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+'Finished building: ../src/xiicps_intr_master_example.c'
+' '
+'Building target: sysmon_bsp_xiicps_intr_master_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sysmon_bsp/psu_cortexa53_0/lib -o "sysmon_bsp_xiicps_intr_master_example_1.elf"  ./src/xiicps_intr_master_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sysmon_bsp_xiicps_intr_master_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size sysmon_bsp_xiicps_intr_master_example_1.elf  |tee "sysmon_bsp_xiicps_intr_master_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  44004	   5624	  21336	  70964	  11534	sysmon_bsp_xiicps_intr_master_example_1.elf
+'Finished building: sysmon_bsp_xiicps_intr_master_example_1.elf.size'
+' '
+
+00:18:51 Build Finished (took 659ms)
+

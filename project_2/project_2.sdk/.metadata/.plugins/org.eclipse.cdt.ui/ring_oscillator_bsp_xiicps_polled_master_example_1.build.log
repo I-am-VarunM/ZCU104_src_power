@@ -1,0 +1,21 @@
+10:06:21 **** Auto Build of configuration Debug for project ring_oscillator_bsp_xiicps_polled_master_example_1 ****
+make all 
+'Building file: ../src/xiicps_polled_master_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_polled_master_example.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xiicps_polled_master_example.d" -MT"src/xiicps_polled_master_example.o" -o "src/xiicps_polled_master_example.o" "../src/xiicps_polled_master_example.c"
+'Finished building: ../src/xiicps_polled_master_example.c'
+' '
+'Building target: ring_oscillator_bsp_xiicps_polled_master_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ring_oscillator_bsp/psu_cortexa53_0/lib -o "ring_oscillator_bsp_xiicps_polled_master_example_1.elf"  ./src/xiicps_polled_master_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ring_oscillator_bsp_xiicps_polled_master_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size ring_oscillator_bsp_xiicps_polled_master_example_1.elf  |tee "ring_oscillator_bsp_xiicps_polled_master_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40396	   2488	  21040	  63924	   f9b4	ring_oscillator_bsp_xiicps_polled_master_example_1.elf
+'Finished building: ring_oscillator_bsp_xiicps_polled_master_example_1.elf.size'
+' '
+
+10:06:22 Build Finished (took 763ms)
+

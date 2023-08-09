@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.sysmon\:.bss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.data=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.data1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.fixup=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.rodata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.rodata1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.sbss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.sbss2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.sdata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.sdata2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:.text=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:heap=psu_ocm_ram_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:heap-size=100560
+com.xilinx.sdk.linkgen.prefs.sysmon\:stack=psu_ocm_ram_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.sysmon\:stack-size=1024
+eclipse.preferences.version=1

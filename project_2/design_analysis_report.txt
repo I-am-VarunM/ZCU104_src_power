@@ -1,0 +1,51 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar 30 23:16:30 2020
+| Host         : DESKTOP-G3QMJB5 running 64-bit major release  (build 9200)
+| Command      : report_design_analysis -complexity -timing -setup -max_paths 10 -name design_analysis_1 -file C:/Users/Carina/KIT/ma_ck/zcu104_src/project_2/design_analysis_report.txt
+| Design       : Base_Zynq_MPSoC_wrapper
+| Device       : xczu7ev
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Design Analysis
+
+Table of Contents
+-----------------
+1. Setup Path Characteristics 1-10
+2. Complexity Characteristics (Cells)
+
+1. Setup Path Characteristics 1-10
+----------------------------------
+
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+------------------------------------+-------------------+-----------------+-----------+------+--------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+------------------------+-------------------------------------+
+|   Paths  | Requirement | Path Delay | Logic Delay |  Net Delay | Clock Skew | Slack | Clock Relationship | Logic Levels | Routes |            Logical Path            | Start Point Clock | End Point Clock | DSP Block | BRAM | IO Crossings | SLR Crossings | PBlocks | High Fanout | Dont Touch | Mark Debug | Start Point Pin Primitive | End Point Pin Primitive |     Start Point Pin    |            End Point Pin            |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+------------------------------------+-------------------+-----------------+-----------+------+--------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+------------------------+-------------------------------------+
+| Path #1  |      10.000 |      5.125 | 0.299(6%)   | 4.826(94%) |     -0.166 | 3.401 | Safely Timed       |            2 |      3 | FDRE LUT4 LUT6 SYSMONE4            | clk_pl_0          | clk_pl_0        | None      | None |            3 |             0 |       0 |         188 |          1 |          0 | FDRE/C                    | SYSMONE4/DI[5]          | storage_data1_reg[0]/C | inst_sysmon/DI[5]                   |
+| Path #2  |      10.000 |      5.285 | 0.350(7%)   | 4.935(93%) |     -0.166 | 3.457 | Safely Timed       |            2 |      3 | FDRE LUT4 LUT6 SYSMONE4            | clk_pl_0          | clk_pl_0        | None      | None |            4 |             0 |       0 |         188 |          1 |          0 | FDRE/C                    | SYSMONE4/DI[4]          | storage_data1_reg[0]/C | inst_sysmon/DI[4]                   |
+| Path #3  |      10.000 |      5.225 | 0.599(12%)  | 4.626(88%) |     -0.146 | 3.591 | Safely Timed       |            4 |      5 | FDSE LUT2 LUT6 LUT6 LUT6 SYSMONE4  | clk_pl_0          | clk_pl_0        | None      | None |            3 |             0 |       0 |          23 |          1 |          0 | FDSE/C                    | SYSMONE4/DI[13]         | first_word_reg/C       | inst_sysmon/DI[13]                  |
+| Path #4  |      10.000 |      5.023 | 0.600(12%)  | 4.423(88%) |     -0.146 | 3.603 | Safely Timed       |            4 |      5 | FDSE LUT2 LUT6 LUT6 LUT6 SYSMONE4  | clk_pl_0          | clk_pl_0        | None      | None |            2 |             0 |       0 |          23 |          1 |          0 | FDSE/C                    | SYSMONE4/DI[7]          | first_word_reg/C       | inst_sysmon/DI[7]                   |
+| Path #5  |      10.000 |      4.936 | 0.600(13%)  | 4.336(87%) |     -0.146 | 3.653 | Safely Timed       |            4 |      5 | FDSE LUT2 LUT6 LUT6 LUT6 SYSMONE4  | clk_pl_0          | clk_pl_0        | None      | None |            3 |             0 |       0 |          23 |          1 |          0 | FDSE/C                    | SYSMONE4/DI[15]         | first_word_reg/C       | inst_sysmon/DI[15]                  |
+| Path #6  |      10.000 |      5.896 | 0.493(9%)   | 5.403(91%) |     -0.276 | 3.723 | Safely Timed       |            4 |      5 | FDRE LUT4 LUT6 LUT6 LUT3 FDRE      | clk_pl_0          | clk_pl_0        | None      | None |            1 |             0 |       0 |         188 |          0 |          0 | FDRE/C                    | FDRE/D                  | storage_data1_reg[0]/C | sw_rst_cond_d1_reg/D                |
+| Path #7  |      10.000 |      5.884 | 0.443(8%)   | 5.441(92%) |     -0.276 | 3.735 | Safely Timed       |            4 |      5 | FDRE LUT4 LUT6 LUT6 LUT4 FDRE      | clk_pl_0          | clk_pl_0        | None      | None |            1 |             0 |       0 |         188 |          0 |          0 | FDRE/C                    | FDRE/D                  | storage_data1_reg[0]/C | reset_trig_reg/D                    |
+| Path #8  |      10.000 |      5.016 | 0.620(13%)  | 4.396(87%) |     -0.146 | 3.748 | Safely Timed       |            4 |      5 | FDSE LUT2 LUT6 LUT6 LUT6 SYSMONE4  | clk_pl_0          | clk_pl_0        | None      | None |            3 |             0 |       0 |          23 |          1 |          0 | FDSE/C                    | SYSMONE4/DI[10]         | first_word_reg/C       | inst_sysmon/DI[10]                  |
+| Path #9  |      10.000 |      4.878 | 0.597(13%)  | 4.281(87%) |     -0.146 | 3.765 | Safely Timed       |            4 |      5 | FDSE LUT2 LUT6 LUT6 LUT6 SYSMONE4  | clk_pl_0          | clk_pl_0        | None      | None |            3 |             0 |       0 |          23 |          1 |          0 | FDSE/C                    | SYSMONE4/DI[11]         | first_word_reg/C       | inst_sysmon/DI[11]                  |
+| Path #10 |      10.000 |      5.834 | 0.478(9%)   | 5.356(91%) |     -0.278 | 3.783 | Safely Timed       |            5 |      6 | FDRE LUT4 LUT6 LUT6 LUT3 LUT5 FDRE | clk_pl_0          | clk_pl_0        | None      | None |            1 |             0 |       0 |         188 |          0 |          0 | FDRE/C                    | FDRE/D                  | storage_data1_reg[0]/C | INTR_CTRLR_GEN_I.ip2bus_error_reg/D |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+------------------------------------+-------------------+-----------------+-----------+------+--------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+------------------------+-------------------------------------+
+* Bounding box calculated as % of dimensions for the target device (2770, 746)
+
+
+2. Complexity Characteristics (Cells)
+-------------------------------------
+
++--------------------+-------------------------+------+----------------+-----------------+-----------+--------------+------------+------------+------------+------------+------------+-----+------+------+------+
+|      Instance      |          Module         | Rent | Average Fanout | Total Instances |    LUT1   |     LUT2     |    LUT3    |    LUT4    |    LUT5    |    LUT6    | Memory LUT | DSP | RAMB | MUXF | URAM |
++--------------------+-------------------------+------+----------------+-----------------+-----------+--------------+------------+------------+------------+------------+------------+-----+------+------+------+
+| (top)              | Base_Zynq_MPSoC_wrapper | 0.27 |           2.69 |           34434 | 352(1.3%) | 19357(71.3%) | 1694(6.2%) | 2007(7.4%) | 1667(6.1%) | 2086(7.7%) |        165 |   1 |    0 |    1 |    0 |
+|  Base_Zynq_MPSoC_i |         Base_Zynq_MPSoC | 0.31 |           2.69 |           34429 | 352(1.3%) | 19357(71.3%) | 1694(6.2%) | 2007(7.4%) | 1667(6.1%) | 2086(7.7%) |        165 |   1 |    0 |    1 |    0 |
++--------------------+-------------------------+------+----------------+-----------------+-----------+--------------+------------+------------+------------+------------+------------+-----+------+------+------+
+* Complexity Ranges 
+** 0.0 - 0.3 -> Very Low, 0.3 - 0.5 -> low, 0.5 - 0.65 -> normal,  0.65 - 0.85 -> high, 0.85 - 1.0 -> very high
+
+

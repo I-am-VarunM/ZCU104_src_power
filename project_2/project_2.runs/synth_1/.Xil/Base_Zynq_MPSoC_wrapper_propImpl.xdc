@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:/home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.srcs/constrs_1/new/RO_constr.xdc rfile:../../../project_2.srcs/constrs_1/new/RO_constr.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH true [get_cells -hier *RO_inst]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property ALLOW_COMBINATORIAL_LOOPS true [get_nets -hier *out_ro]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J9 [get_ports {pwm_out_0[0]}]

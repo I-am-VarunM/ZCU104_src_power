@@ -1,0 +1,26 @@
+10:06:21 **** Auto Build of configuration Debug for project ring_oscillator ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ring_oscillator.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ring_oscillator_bsp/psu_cortexa53_0/lib -o "ring_oscillator.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ring_oscillator.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size ring_oscillator.elf  |tee "ring_oscillator.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74704	   4632	  20816	 100152	  18738	ring_oscillator.elf
+'Finished building: ring_oscillator.elf.size'
+' '
+
+10:06:21 Build Finished (took 917ms)
+

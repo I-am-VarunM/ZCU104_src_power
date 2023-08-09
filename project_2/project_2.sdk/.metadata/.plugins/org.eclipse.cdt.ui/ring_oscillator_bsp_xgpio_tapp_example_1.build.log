@@ -1,0 +1,21 @@
+20:28:34 **** Auto Build of configuration Debug for project ring_oscillator_bsp_xgpio_tapp_example_1 ****
+make all 
+'Building file: ../src/xgpio_tapp_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+'Finished building: ../src/xgpio_tapp_example.c'
+' '
+'Building target: ring_oscillator_bsp_xgpio_tapp_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ring_oscillator_bsp/psu_cortexa53_0/lib -o "ring_oscillator_bsp_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ring_oscillator_bsp_xgpio_tapp_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size ring_oscillator_bsp_xgpio_tapp_example_1.elf  |tee "ring_oscillator_bsp_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35820	   2552	  20688	  59060	   e6b4	ring_oscillator_bsp_xgpio_tapp_example_1.elf
+'Finished building: ring_oscillator_bsp_xgpio_tapp_example_1.elf.size'
+' '
+
+20:28:35 Build Finished (took 815ms)
+

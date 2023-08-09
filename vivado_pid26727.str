@@ -1,0 +1,278 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 26727
+License: Customer
+
+Current time: 	Mon Jun 05 12:13:10 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.90.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :52.0
+Screen size: 1920x1029
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	manvar00
+User home directory: /home/manvar00
+User working directory: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /Software/xilinx/2019.1-sdx/Vivado
+HDI_APPROOT: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+RDI_DATADIR: /Software/xilinx/2019.1-sdx/Vivado/2019.1/data
+RDI_BINDIR: /Software/xilinx/2019.1-sdx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/manvar00/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/manvar00/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/manvar00/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/Software/xilinx/2019.1-sdx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/vivado.log
+Vivado journal file location: 	/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-26727-i80r7node2
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /Software/xilinx/2019.1-sdx/Vivado/2019.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@i80license.irf.uni-karlsruhe.de
+XILINX_DSP: /Software/xilinx/2019.1-sdx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+XILINX_SDK: /Software/xilinx/2019.1-sdx/SDK/2019.1
+XILINX_SDX: /Software/xilinx/2019.1-sdx/SDx/2019.1
+XILINX_VIVADO: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+XILINX_VIVADO_HLS: /Software/xilinx/2019.1-sdx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 5,133 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,141 MB. GUI used memory: 51 MB. Current time: 6/5/23, 12:13:12 PM CEST
+setFileChooser("/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr");
+// Opening Vivado Project: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+103084kb) [00:00:38]
+// [Engine Memory]: 5,208 MB (+5309659kb) [00:00:38]
+// WARNING: HEventQueue.dispatchEvent() is taking  4801 ms.
+// Tcl Message: open_project {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2019.1-sdx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,312 MB. GUI used memory: 57 MB. Current time: 6/5/23, 12:13:40 PM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 6735.375 ; gain = 164.996 ; free physical = 345 ; free virtual = 13251 
+// Project name: project_2; location: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2; part: xczu7ev-ffvc1156-2-e
+// 'i' command handler elapsed time: 29 seconds
+// [GUI Memory]: 113 MB (+7321kb) [00:00:43]
+// Elapsed time: 25 seconds
+dismissDialog("Open Project"); // by (cl)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// by (cl):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run Base_Zynq_MPSoC_Measurement_Load_0_1_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 122 MB (+3651kb) [00:01:14]
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 7 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7023.512 ; gain = 0.000 ; free physical = 12567 ; free virtual = 25749 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 40 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v)]", 5); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v)]", 8); // B (F, cl)
+// PAPropertyPanels.initPanels (Simulated_Load_IP_Core.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v), inst : Simulated_Load_IP_Core (Simulated_Load_IP_Core.v)]", 9, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Base_Zynq_MPSoC_wrapper (Base_Zynq_MPSoC_wrapper.v), Base_Zynq_MPSoC_i : Base_Zynq_MPSoC (Base_Zynq_MPSoC.bd), Base_Zynq_MPSoC (Base_Zynq_MPSoC.v), Simulated_Load_IP_Co_0 : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Module Reference Wrapper), Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0 (Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.v), inst : Simulated_Load_IP_Core (Simulated_Load_IP_Core.v)]", 9, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1210 ms. Increasing delay to 3630 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1493 ms. Increasing delay to 3000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 2767ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2767 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,497 MB (+30279kb) [00:12:01]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 129 MB (+1360kb) [00:12:07]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,520 MB. GUI used memory: 74 MB. Current time: 6/5/23, 12:25:07 PM CEST
+// [GUI Memory]: 138 MB (+2801kb) [00:15:55]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 147 MB (+1399kb) [00:36:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,499 MB. GUI used memory: 89 MB. Current time: 6/5/23, 12:55:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,603 MB. GUI used memory: 89 MB. Current time: 6/5/23, 12:59:07 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,736 MB. GUI used memory: 89 MB. Current time: 6/5/23, 12:59:37 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// [Engine Memory]: 5,782 MB (+10613kb) [00:49:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,782 MB. GUI used memory: 87 MB. Current time: 6/5/23, 1:02:47 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,820 MB. GUI used memory: 83 MB. Current time: 6/5/23, 1:11:27 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,737 MB. GUI used memory: 84 MB. Current time: 6/5/23, 1:41:27 PM CEST
+// Elapsed time: 6386 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/impl_1/Base_Zynq_MPSoC_wrapper.sysdef} {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf}  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk} -hwspec {/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf} 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,739 MB. GUI used memory: 83 MB. Current time: 6/5/23, 2:11:27 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 1069 seconds
+closeMainWindow("project_2 - [/home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr] - Vivado 2019.1"); // cl
+// A (cl): Exit Vivado: addNotify

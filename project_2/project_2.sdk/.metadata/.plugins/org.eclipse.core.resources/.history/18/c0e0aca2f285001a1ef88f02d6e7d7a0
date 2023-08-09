@@ -1,0 +1,225 @@
+/*
+ * feature_extraction.c
+ *
+ *  Created on: Mar 18, 2020
+ *      Author: Carina
+ */
+
+
+#include <stdio.h>
+#include <math.h>
+#include <complex.h>
+#include "feature_extraction.h"
+#include <stdlib.h>
+
+
+void compute_dft_complex(const double complex input[], double complex output[], int num_steps, int nperseg);
+
+// compute discrete fourier transformation
+void compute_dft_complex(const double complex input[], double complex output[], int num_steps, int nperseg) {
+
+    double complex sum = 0.0;
+    double angle = 0.0;
+
+	double complex cexp_val = 0.0;
+    for(int i=0; i < num_steps; i++) { // for each overlap part of the origin array
+        for (int k = i*nperseg; k < i*nperseg+nperseg; k++) {  // For each output element
+            sum = 0.0;
+            for (int t = i*nperseg; t < i*nperseg+nperseg; t++) {  // For each input element
+                angle = 2 * M_PI * t * k / nperseg;
+                complex cexp_val = cexp((-1)*angle * I);
+                sum += input[t] * cexp_val;
+            }
+            output[k] = sum;
+        }
+    }
+}
+
+double spkt_welch_density(double values[], int length, int coef) {
+
+    if(coef > length) {
+        printf("Incorrect coef value \n");
+        return NAN;
+    }
+	printf("Start spkt_welch_density...\n");
+
+    double fs = 1.0;
+    int nperseg = 256;
+    int elem_overlap = floor(nperseg/2);
+    double nstep = nperseg - elem_overlap;
+    int number_overlaps = floor(length-elem_overlap)/elem_overlap;
+
+    // determine a hann window(weighted cosine) for smoothing the signal values
+    double * seg_values;
+	seg_values = (double *) calloc(number_overlaps*nperseg, sizeof(double));
+	//printf("seg\n");
+
+    //input werte aufteilen
+    for(int i=0; i+nperseg<length; i+= nstep) {
+        for(int j=i; j<i+nperseg; j++) {
+            seg_values[i+j] = values[j];
+        }
+    }
+	free(values);
+	//printf("free\n");
+
+    double * window = (double *) calloc(256, sizeof(double));
+    //double step = 2*M_PI/length;
+    double *temp;//[length+1];
+    temp = (double *) calloc(length+1, sizeof(double));
+	//printf("window temp\n");
+
+
+    // calculate window : window[j] = 0.5 + 0.5*cos((j*step-M_PI));
+    for(int i=0; i<nperseg; i++) {
+        temp[i] = (double)i;
+        temp[i] = (temp[i]/nperseg)*2*M_PI-M_PI;
+        window[i] = 0.5 + 0.5*cos(temp[i]);
+    }
+	free(temp);
+	//printf("free\n");
+
+    //determine scale by centering to the mean and component wise scale to unit variance.
+    // scale = 1.0 / fs * (win* win).sum()
+    double scale = 0.0;
+    for(int i=0; i<nperseg; i++) {
+        scale += window[i]*window[i] * fs;
+    }
+    scale = 1.0/ scale;
+	//printf("scale\n");
+
+    //detrend the input values to eliminate a possible linear trend since data array has only 1 dimension
+    double mean = 0.0;
+    for(int j=0; j<number_overlaps; j++) {
+        mean=0.0;
+        for(int i=0; i<nperseg; i++) {
+            mean += seg_values[j*nperseg+i];
+        }
+        mean /= nperseg;
+        for(int i=0; i<nperseg; i++) {
+            seg_values[j*nperseg+i] -= mean;
+        }
+    }
+	//printf("mean\n");
+
+    //multiply the already calculated window with the current state of input array for smoothing
+    for(int i=0; i<number_overlaps*nperseg; i++) {
+        seg_values[i] *= window[i%nperseg];
+    }
+	free(window);
+	//printf("free\n");
+
+    //copy originally values
+    //double complex result[number_overlaps*nperseg];
+    double complex * result;
+    result = (double complex *) calloc(number_overlaps*nperseg, sizeof(double complex));
+    for(int i=0; i<number_overlaps*nperseg; i++) result[i] = seg_values[i];
+
+
+	free(seg_values);
+	//printf("free\n");
+
+    double complex *dfft;
+    dfft = (double complex *) calloc(number_overlaps*nperseg, sizeof(double complex));
+
+    compute_dft_complex(result, dfft, number_overlaps, nperseg);
+	//printf("dfft\n");
+
+
+    //conjugate result after fourier transformation
+    for(int i=0; i<number_overlaps; i++) {
+        for(int j=i*nperseg; j<i*nperseg+elem_overlap; j++) {
+            result[j] = dfft[j] + ((-2)*I*cimag(dfft[j]));
+            result[j] *= dfft[j];
+        }
+    }
+    free(dfft);
+	//printf("free\n");
+
+    //scale the current stage of result array with the already calculated values
+    for(int i=0; i<number_overlaps; i++) {
+        //scale the result
+        for(int j=i*nperseg; j<i*nperseg+elem_overlap; j++) {
+            result[j] *= scale;
+        }
+        for(int j=i*nperseg+1; j<i*nperseg+elem_overlap-1; j++) {
+            result[j] *= 2;
+        }
+    }
+	//printf("result\n");
+
+    double elem = 0.0;
+    //calculate the mean from all overlap arrays only for the desired place(coefficient)
+    for(int i=0; i<number_overlaps; i++) {
+        elem += creal(result[coef+i*nperseg]);
+    }
+	free(result);
+	//printf("free\n");
+    elem = elem/number_overlaps;
+
+   return elem;
+}
+
+#ifndef RUN_NOT_STANDALONE
+int main(int argc, const char * argv[])
+{
+	double features[argc-1];
+	int i;
+	for (i = 1; i < argc; i++) {
+		features[i-1] = atof(argv[i]);
+	}
+
+	printf("result ist %f \n", spkt_welch_density(features, argc-1, 0));
+
+    /* FILE *fp;
+    float records[800];
+    double temp_data[800];
+    int count = 0;
+
+    fp = fopen("temp_dataset_only.csv", "r");
+    if (fp == NULL) {
+        fprintf(stderr, "Error reading file\n");
+        return 1;
+    }
+	printf("Opened csv succefully\n");
+	char str[200];
+	float time = 0;
+	while (fgets(str, 200, fp) != NULL){
+        printf("%s", str);
+		sscanf(str,"%f,%f",&time, &records[count]);
+		printf("read in: %f\n", records[count]);
+
+		char str2[40];
+		sprintf(str2, "%.3f", records[count]);
+
+		scan string value in var
+		float nearest = 0;
+
+		sscanf(str2, "%f", &nearest);
+		double nearest = (int)(records[count] * 1000 + .5);
+		nearest = (double)nearest/1000;
+		temp_data[count] = nearest;
+		printf("rounded to: %f\n", temp_data[count]);
+        count++;
+	}
+	float time = 0;
+	count = 0;
+    while (fscanf(fp, "%f,%f ", &time, &records[count]) == 2) {
+		printf("test");
+        count++;
+    }
+
+    for (int i = 0; i < count; i++) {
+        printf("%f\n", temp_data[i]);
+    }
+
+	printf("count %i\n",count);
+    fclose(fp);
+
+
+    printf("res[coef] is %f \n", spkt_welch_density(temp_data, count, 2)); */
+
+    return 0;
+}
+#endif
+

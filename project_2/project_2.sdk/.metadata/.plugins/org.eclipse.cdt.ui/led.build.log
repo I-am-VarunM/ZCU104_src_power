@@ -1,0 +1,100 @@
+18:54:38 **** Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building file: ../src/xcanps_intr_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xcanps_intr_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xcanps_intr_example.d" -MT"src/xcanps_intr_example.o" -o "src/xcanps_intr_example.o" "../src/xcanps_intr_example.c"
+'Finished building: ../src/xcanps_intr_example.c'
+' '
+'Building file: ../src/xcanps_polled_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xcanps_polled_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xcanps_polled_example.d" -MT"src/xcanps_polled_example.o" -o "src/xcanps_polled_example.o" "../src/xcanps_polled_example.c"
+'Finished building: ../src/xcanps_polled_example.c'
+' '
+'Building file: ../src/xcsudma_intr_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xcsudma_intr_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xcsudma_intr_example.d" -MT"src/xcsudma_intr_example.o" -o "src/xcsudma_intr_example.o" "../src/xcsudma_intr_example.c"
+'Finished building: ../src/xcsudma_intr_example.c'
+' '
+'Building file: ../src/xcsudma_selftest_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xcsudma_selftest_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xcsudma_selftest_example.d" -MT"src/xcsudma_selftest_example.o" -o "src/xcsudma_selftest_example.o" "../src/xcsudma_selftest_example.c"
+'Finished building: ../src/xcsudma_selftest_example.c'
+' '
+'Building file: ../src/xgpio_tapp_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+'Finished building: ../src/xgpio_tapp_example.c'
+' '
+'Building file: ../src/xiicps_selftest_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_selftest_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xiicps_selftest_example.d" -MT"src/xiicps_selftest_example.o" -o "src/xiicps_selftest_example.o" "../src/xiicps_selftest_example.c"
+'Finished building: ../src/xiicps_selftest_example.c'
+' '
+'Building file: ../src/xscugic_tapp_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_tapp_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xscugic_tapp_example.d" -MT"src/xscugic_tapp_example.o" -o "src/xscugic_tapp_example.o" "../src/xscugic_tapp_example.c"
+'Finished building: ../src/xscugic_tapp_example.c'
+' '
+'Building file: ../src/xsysmonpsu_intr_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xsysmonpsu_intr_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xsysmonpsu_intr_example.d" -MT"src/xsysmonpsu_intr_example.o" -o "src/xsysmonpsu_intr_example.o" "../src/xsysmonpsu_intr_example.c"
+'Finished building: ../src/xsysmonpsu_intr_example.c'
+' '
+'Building file: ../src/xsysmonpsu_polled_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xsysmonpsu_polled_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xsysmonpsu_polled_example.d" -MT"src/xsysmonpsu_polled_example.o" -o "src/xsysmonpsu_polled_example.o" "../src/xsysmonpsu_polled_example.c"
+'Finished building: ../src/xsysmonpsu_polled_example.c'
+' '
+'Building file: ../src/xttcps_tapp_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xttcps_tapp_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xttcps_tapp_example.d" -MT"src/xttcps_tapp_example.o" -o "src/xttcps_tapp_example.o" "../src/xttcps_tapp_example.c"
+../src/xttcps_tapp_example.c: In function 'TickHandler':
+../src/xttcps_tapp_example.c:424:6: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
+  u32 StatusEvent;
+      ^~~~~~~~~~~
+'Finished building: ../src/xttcps_tapp_example.c'
+' '
+'Building file: ../src/xuartps_intr_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_intr_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xuartps_intr_example.d" -MT"src/xuartps_intr_example.o" -o "src/xuartps_intr_example.o" "../src/xuartps_intr_example.c"
+'Finished building: ../src/xuartps_intr_example.c'
+' '
+'Building file: ../src/xuartps_polled_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_polled_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xuartps_polled_example.d" -MT"src/xuartps_polled_example.o" -o "src/xuartps_polled_example.o" "../src/xuartps_polled_example.c"
+'Finished building: ../src/xuartps_polled_example.c'
+' '
+'Building file: ../src/xwdtps_selftest_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xwdtps_selftest_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xwdtps_selftest_example.d" -MT"src/xwdtps_selftest_example.o" -o "src/xwdtps_selftest_example.o" "../src/xwdtps_selftest_example.c"
+'Finished building: ../src/xwdtps_selftest_example.c'
+' '
+'Building file: ../src/xzdma_selftest_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xzdma_selftest_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xzdma_selftest_example.d" -MT"src/xzdma_selftest_example.o" -o "src/xzdma_selftest_example.o" "../src/xzdma_selftest_example.c"
+'Finished building: ../src/xzdma_selftest_example.c'
+' '
+'Building file: ../src/xzdma_simple_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xzdma_simple_example.o" -I../../led_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xzdma_simple_example.d" -MT"src/xzdma_simple_example.o" -o "src/xzdma_simple_example.o" "../src/xzdma_simple_example.c"
+'Finished building: ../src/xzdma_simple_example.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led_bsp/psu_cortexa53_0/lib -o "led.elf"  ./src/testperiph.o ./src/xcanps_intr_example.o ./src/xcanps_polled_example.o ./src/xcsudma_intr_example.o ./src/xcsudma_selftest_example.o ./src/xgpio_tapp_example.o ./src/xiicps_selftest_example.o ./src/xscugic_tapp_example.o ./src/xsysmonpsu_intr_example.o ./src/xsysmonpsu_polled_example.o ./src/xttcps_tapp_example.o ./src/xuartps_intr_example.o ./src/xuartps_polled_example.o ./src/xwdtps_selftest_example.o ./src/xzdma_selftest_example.o ./src/xzdma_simple_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97948	   6120	  28400	 132468	  20574	led.elf
+'Finished building: led.elf.size'
+' '
+
+18:54:44 Build Finished (took 5s.694ms)
+

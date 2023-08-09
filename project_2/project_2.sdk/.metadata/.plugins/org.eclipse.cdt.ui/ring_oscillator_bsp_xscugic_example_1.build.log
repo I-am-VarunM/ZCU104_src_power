@@ -1,0 +1,21 @@
+16:15:54 **** Build of configuration Debug for project ring_oscillator_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.o" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: ring_oscillator_bsp_xscugic_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ring_oscillator_bsp/psu_cortexa53_0/lib -o "ring_oscillator_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ring_oscillator_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size ring_oscillator_bsp_xscugic_example_1.elf  |tee "ring_oscillator_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37532	   5616	  20712	  63860	   f974	ring_oscillator_bsp_xscugic_example_1.elf
+'Finished building: ring_oscillator_bsp_xscugic_example_1.elf.size'
+' '
+
+16:15:55 Build Finished (took 1s.629ms)
+

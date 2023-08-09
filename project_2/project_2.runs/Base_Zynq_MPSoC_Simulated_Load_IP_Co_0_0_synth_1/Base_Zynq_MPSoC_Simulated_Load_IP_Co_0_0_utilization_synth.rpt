@@ -1,0 +1,197 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Jun  5 12:24:44 2023
+| Host         : i80r7node2 running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : report_utilization -file Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_utilization_synth.rpt -pb Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_utilization_synth.pb
+| Design       : Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0
+| Device       : xczu7evffvc1156-2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. CLB Logic
+1.1 Summary of Registers by Type
+2. BLOCKRAM
+3. ARITHMETIC
+4. I/O
+5. CLOCK
+6. ADVANCED
+7. CONFIGURATION
+8. Primitives
+9. Black Boxes
+10. Instantiated Netlists
+
+1. CLB Logic
+------------
+
++----------------------------+-------+-------+-----------+-------+
+|          Site Type         |  Used | Fixed | Available | Util% |
++----------------------------+-------+-------+-----------+-------+
+| CLB LUTs*                  | 81644 |     0 |    230400 | 35.44 |
+|   LUT as Logic             | 80880 |     0 |    230400 | 35.10 |
+|   LUT as Memory            |   764 |     0 |    101760 |  0.75 |
+|     LUT as Distributed RAM |     0 |     0 |           |       |
+|     LUT as Shift Register  |   764 |     0 |           |       |
+| CLB Registers              | 72608 |     0 |    460800 | 15.76 |
+|   Register as Flip Flop    | 72572 |     0 |    460800 | 15.75 |
+|   Register as Latch        |    36 |     0 |    460800 | <0.01 |
+| CARRY8                     |  3124 |     0 |     28800 | 10.85 |
+| F7 Muxes                   |   200 |     0 |    115200 |  0.17 |
+| F8 Muxes                   |     0 |     0 |     57600 |  0.00 |
+| F9 Muxes                   |     0 |     0 |     28800 |  0.00 |
++----------------------------+-------+-------+-----------+-------+
+* Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
+
+
+1.1 Summary of Registers by Type
+--------------------------------
+
++-------+--------------+-------------+--------------+
+| Total | Clock Enable | Synchronous | Asynchronous |
++-------+--------------+-------------+--------------+
+| 0     |            _ |           - |            - |
+| 0     |            _ |           - |          Set |
+| 0     |            _ |           - |        Reset |
+| 0     |            _ |         Set |            - |
+| 0     |            _ |       Reset |            - |
+| 0     |          Yes |           - |            - |
+| 1240  |          Yes |           - |          Set |
+| 20564 |          Yes |           - |        Reset |
+| 580   |          Yes |         Set |            - |
+| 50224 |          Yes |       Reset |            - |
++-------+--------------+-------------+--------------+
+
+
+2. BLOCKRAM
+-----------
+
++-------------------+------+-------+-----------+-------+
+|     Site Type     | Used | Fixed | Available | Util% |
++-------------------+------+-------+-----------+-------+
+| Block RAM Tile    |  192 |     0 |       312 | 61.54 |
+|   RAMB36/FIFO*    |    0 |     0 |       312 |  0.00 |
+|   RAMB18          |  384 |     0 |       624 | 61.54 |
+|     RAMB18E2 only |  384 |       |           |       |
+| URAM              |    0 |     0 |        96 |  0.00 |
++-------------------+------+-------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E2 or one FIFO18E2. However, if a FIFO18E2 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E2
+
+
+3. ARITHMETIC
+-------------
+
++----------------+------+-------+-----------+-------+
+|    Site Type   | Used | Fixed | Available | Util% |
++----------------+------+-------+-----------+-------+
+| DSPs           |  512 |     0 |      1728 | 29.63 |
+|   DSP48E2 only |  512 |       |           |       |
++----------------+------+-------+-----------+-------+
+
+
+4. I/O
+------
+
++------------+------+-------+-----------+-------+
+|  Site Type | Used | Fixed | Available | Util% |
++------------+------+-------+-----------+-------+
+| Bonded IOB |    0 |     0 |       360 |  0.00 |
++------------+------+-------+-----------+-------+
+
+
+5. CLOCK
+--------
+
++----------------------+------+-------+-----------+-------+
+|       Site Type      | Used | Fixed | Available | Util% |
++----------------------+------+-------+-----------+-------+
+| GLOBAL CLOCK BUFFERs |    0 |     0 |       544 |  0.00 |
+|   BUFGCE             |    0 |     0 |       208 |  0.00 |
+|   BUFGCE_DIV         |    0 |     0 |        32 |  0.00 |
+|   BUFG_GT            |    0 |     0 |       144 |  0.00 |
+|   BUFG_PS            |    0 |     0 |        96 |  0.00 |
+|   BUFGCTRL*          |    0 |     0 |        64 |  0.00 |
+| PLL                  |    0 |     0 |        16 |  0.00 |
+| MMCM                 |    0 |     0 |         8 |  0.00 |
++----------------------+------+-------+-----------+-------+
+* Note: Each used BUFGCTRL counts as two GLOBAL CLOCK BUFFERs. This table does not include global clocking resources, only buffer cell usage. See the Clock Utilization Report (report_clock_utilization) for detailed accounting of global clocking resource availability.
+
+
+6. ADVANCED
+-----------
+
++-----------------+------+-------+-----------+-------+
+|    Site Type    | Used | Fixed | Available | Util% |
++-----------------+------+-------+-----------+-------+
+| GTHE4_CHANNEL   |    0 |     0 |        20 |  0.00 |
+| GTHE4_COMMON    |    0 |     0 |         5 |  0.00 |
+| OBUFDS_GTE4     |    0 |     0 |        10 |  0.00 |
+| OBUFDS_GTE4_ADV |    0 |     0 |        10 |  0.00 |
+| PCIE40E4        |    0 |     0 |         2 |  0.00 |
+| PS8             |    0 |     0 |         1 |  0.00 |
+| SYSMONE4        |    0 |     0 |         1 |  0.00 |
+| VCU             |    0 |     0 |         1 |  0.00 |
++-----------------+------+-------+-----------+-------+
+
+
+7. CONFIGURATION
+----------------
+
++-------------+------+-------+-----------+-------+
+|  Site Type  | Used | Fixed | Available | Util% |
++-------------+------+-------+-----------+-------+
+| BSCANE2     |    0 |     0 |         4 |  0.00 |
+| DNA_PORTE2  |    0 |     0 |         1 |  0.00 |
+| EFUSE_USR   |    0 |     0 |         1 |  0.00 |
+| FRAME_ECCE4 |    0 |     0 |         1 |  0.00 |
+| ICAPE3      |    0 |     0 |         2 |  0.00 |
+| MASTER_JTAG |    0 |     0 |         1 |  0.00 |
+| STARTUPE3   |    0 |     0 |         1 |  0.00 |
++-------------+------+-------+-----------+-------+
+
+
+8. Primitives
+-------------
+
++----------+-------+---------------------+
+| Ref Name |  Used | Functional Category |
++----------+-------+---------------------+
+| FDRE     | 50224 |            Register |
+| LUT3     | 23956 |                 CLB |
+| LUT4     | 23492 |                 CLB |
+| LUT6     | 21224 |                 CLB |
+| FDCE     | 20528 |            Register |
+| LUT2     | 15724 |                 CLB |
+| LUT5     |  9616 |                 CLB |
+| CARRY8   |  3124 |                 CLB |
+| FDPE     |  1240 |            Register |
+| FDSE     |   580 |            Register |
+| DSP48E2  |   512 |          Arithmetic |
+| SRLC32E  |   504 |                 CLB |
+| RAMB18E2 |   384 |           Block Ram |
+| LUT1     |   284 |                 CLB |
+| SRL16E   |   260 |                 CLB |
+| MUXF7    |   200 |                 CLB |
+| LDCE     |    36 |            Register |
++----------+-------+---------------------+
+
+
+9. Black Boxes
+--------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+10. Instantiated Netlists
+-------------------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+

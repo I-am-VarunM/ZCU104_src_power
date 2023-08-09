@@ -1,0 +1,21 @@
+10:06:23 **** Auto Build of configuration Debug for project ring_oscillator_bsp_xuartps_hello_world_example_1 ****
+make all 
+'Building file: ../src/xuartps_hello_world_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_hello_world_example.o" -I../../ring_oscillator_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xuartps_hello_world_example.d" -MT"src/xuartps_hello_world_example.o" -o "src/xuartps_hello_world_example.o" "../src/xuartps_hello_world_example.c"
+'Finished building: ../src/xuartps_hello_world_example.c'
+' '
+'Building target: ring_oscillator_bsp_xuartps_hello_world_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ring_oscillator_bsp/psu_cortexa53_0/lib -o "ring_oscillator_bsp_xuartps_hello_world_example_1.elf"  ./src/xuartps_hello_world_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ring_oscillator_bsp_xuartps_hello_world_example_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size ring_oscillator_bsp_xuartps_hello_world_example_1.elf  |tee "ring_oscillator_bsp_xuartps_hello_world_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35660	   2512	  20824	  58996	   e674	ring_oscillator_bsp_xuartps_hello_world_example_1.elf
+'Finished building: ring_oscillator_bsp_xuartps_hello_world_example_1.elf.size'
+' '
+
+10:06:23 Build Finished (took 663ms)
+

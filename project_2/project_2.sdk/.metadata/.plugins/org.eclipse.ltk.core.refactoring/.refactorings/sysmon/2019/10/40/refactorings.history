@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sysmon/src/xsysmon/xsysmon_polled_printf_example.c&apos; to &apos;xsysmon_polled_example.c&apos;" description="Rename resource &apos;xsysmon_polled_printf_example.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/xsysmon/xsysmon_polled_printf_example.c" name="xsysmon_polled_example.c" stamp="1570132237532" updateReferences="true"/>
+</session>

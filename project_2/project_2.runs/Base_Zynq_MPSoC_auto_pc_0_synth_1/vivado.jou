@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Aug 29 20:21:00 2019
+# Process ID: 5752
+# Current directory: C:/Users/Carina/workspace/project_2/project_2.runs/Base_Zynq_MPSoC_auto_pc_0_synth_1
+# Command line: vivado.exe -log Base_Zynq_MPSoC_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Base_Zynq_MPSoC_auto_pc_0.tcl
+# Log file: C:/Users/Carina/workspace/project_2/project_2.runs/Base_Zynq_MPSoC_auto_pc_0_synth_1/Base_Zynq_MPSoC_auto_pc_0.vds
+# Journal file: C:/Users/Carina/workspace/project_2/project_2.runs/Base_Zynq_MPSoC_auto_pc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Base_Zynq_MPSoC_auto_pc_0.tcl -notrace

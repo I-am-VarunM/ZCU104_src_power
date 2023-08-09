@@ -1,0 +1,21 @@
+#define RUN_NOT_STANDALONE
+
+/*
+ * feature_extraction.h
+ *
+ *  Created on: Mar 18, 2020
+ *      Author: Carina
+ */
+
+#ifndef SRC_CLASSIFIER_FEATURE_EXTRACTION_H_
+#define SRC_CLASSIFIER_FEATURE_EXTRACTION_H_
+
+
+double spkt_welch_density(double values[], int length, int coef);
+double max_of_window(double values[], int length, int window);
+double min_of_window(double values[], int length, int window);
+double min_max_diff_of_window(double values[], int length,int window);
+double max(double values[], int length);
+double min(double values[], int length);
+double min_max_diff(double values[], int length);
+#endif /* SRC_CLASSIFIER_FEATURE_EXTRACTION_H_ */

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Base_Zynq_MPSoC_axi_gpio_1_0_synth_1" LaunchDir="C:/Users/Carina/KIT/ma_ck/zcu104_src/project_2/project_2.runs/Base_Zynq_MPSoC_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Base_Zynq_MPSoC_Simulated_IP_Load_0_0_synth_1" LaunchDir="C:/Users/Carina/KIT/ma_ck/zcu104_src/project_2/project_2.runs/Base_Zynq_MPSoC_Simulated_IP_Load_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

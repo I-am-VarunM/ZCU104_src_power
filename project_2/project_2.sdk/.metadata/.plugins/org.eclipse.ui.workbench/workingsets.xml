@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1569492843405_2" label="sysmon" name="sysmon">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/sysmon" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/sysmon_bsp" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567104282057_0" label="Window Working Set" name="Aggregate for window 1567104282056"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567105564585_1" label="Window Working Set" name="Aggregate for window 1567105564585"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1584696511186_3" label="Window Working Set" name="Aggregate for window 1584696511186"/>
+</workingSetManager>

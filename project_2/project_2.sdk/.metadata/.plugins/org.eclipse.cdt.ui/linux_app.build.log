@@ -1,0 +1,13 @@
+22:00:37 **** Auto Build of configuration Debug for project linux_app ****
+make all 
+'Building file: ../src/xsysmon_psu/xsysmonpsu_polled_example.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xsysmon_psu/xsysmonpsu_polled_example.o" -MMD -MP -MF"src/xsysmon_psu/xsysmonpsu_polled_example.d" -MT"src/xsysmon_psu/xsysmonpsu_polled_example.o" -o "src/xsysmon_psu/xsysmonpsu_polled_example.o" "../src/xsysmon_psu/xsysmonpsu_polled_example.c"
+../src/xsysmon_psu/xsysmonpsu_polled_example.c:61:10: fatal error: xsysmonpsu.h: No such file or directory
+ #include "xsysmonpsu.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/xsysmon_psu/subdir.mk:20: src/xsysmon_psu/xsysmonpsu_polled_example.o] Error 1
+
+22:00:37 Build Finished (took 333ms)
+

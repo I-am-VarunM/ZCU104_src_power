@@ -1,0 +1,21 @@
+13:04:34 **** Build of configuration Debug for project aes_bsp_0_xilsecure_aes_example_1 ****
+make all 
+Building file: ../src/xilsecure_aes_example.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xilsecure_aes_example.o" -I../../aes_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/xilsecure_aes_example.d" -MT"src/xilsecure_aes_example.o" -o "src/xilsecure_aes_example.o" "../src/xilsecure_aes_example.c"
+Finished building: ../src/xilsecure_aes_example.c
+ 
+Building target: aes_bsp_0_xilsecure_aes_example_1.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../aes_bsp_0/psu_cortexa53_0/lib -o "aes_bsp_0_xilsecure_aes_example_1.elf"  ./src/xilsecure_aes_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+Finished building target: aes_bsp_0_xilsecure_aes_example_1.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size aes_bsp_0_xilsecure_aes_example_1.elf  |tee "aes_bsp_0_xilsecure_aes_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  45336	   2512	  20864	  68712	  10c68	aes_bsp_0_xilsecure_aes_example_1.elf
+Finished building: aes_bsp_0_xilsecure_aes_example_1.elf.size
+ 
+
+13:04:35 Build Finished (took 1s.333ms)
+

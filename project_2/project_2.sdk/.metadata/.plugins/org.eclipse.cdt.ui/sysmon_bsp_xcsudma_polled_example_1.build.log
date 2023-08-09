@@ -1,0 +1,29 @@
+18:37:38 **** Auto Build of configuration Debug for project sysmon_bsp_xcsudma_polled_example_1 ****
+make all 
+'Building file: ../src/xcsudma_polled_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xcsudma_polled_example.o" -I../../sysmon_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xcsudma_polled_example.d" -MT"src/xcsudma_polled_example.o" -o "src/xcsudma_polled_example.o" "../src/xcsudma_polled_example.c"
+'Finished building: ../src/xcsudma_polled_example.c'
+' '
+'Building target: sysmon_bsp_xcsudma_polled_example_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sysmon_bsp/psu_cortexa53_0/lib -o "sysmon_bsp_xcsudma_polled_example_1.elf"  ./src/xcsudma_polled_example.o   
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: warning: cannot find entry symbol _vector_table; defaulting to 0000000000000000
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: ./src/xcsudma_polled_example.o: in function `main':
+C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:110: undefined reference to `xil_printf'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:114: undefined reference to `xil_printf'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: ./src/xcsudma_polled_example.o: in function `XCsuDma_PolledExample':
+C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:149: undefined reference to `XCsuDma_LookupConfig'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:154: undefined reference to `XCsuDma_CfgInitialize'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:167: undefined reference to `XCsuDma_SelfTest'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:202: undefined reference to `XCsuDma_Transfer'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:203: undefined reference to `XCsuDma_Transfer'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:210: undefined reference to `XCsuDma_IntrClear'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: C:\Users\Carina\Documents\ma_ck\zcu104_src_fixed\project_2\project_2.sdk\sysmon_bsp_xcsudma_polled_example_1\Debug/../src/xcsudma_polled_example.c:211: undefined reference to `XCsuDma_IntrClear'
+c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/8.2.0/../../../../aarch64-none-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text+0x30): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: sysmon_bsp_xcsudma_polled_example_1.elf] Error 1
+
+18:37:39 Build Finished (took 1s.156ms)
+

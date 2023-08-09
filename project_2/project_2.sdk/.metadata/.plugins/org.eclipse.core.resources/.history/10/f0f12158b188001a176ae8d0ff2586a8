@@ -1,0 +1,14 @@
+/*
+ * threshold.h
+ *
+ *  Created on: Apr 27, 2020
+ *      Author: Carina
+ */
+
+#ifndef SRC_CLASSIFIER_THRESHOLD_H_
+#define SRC_CLASSIFIER_THRESHOLD_H_
+
+int compare_with_threshold(double value);
+
+
+#endif /* SRC_CLASSIFIER_THRESHOLD_H_ */

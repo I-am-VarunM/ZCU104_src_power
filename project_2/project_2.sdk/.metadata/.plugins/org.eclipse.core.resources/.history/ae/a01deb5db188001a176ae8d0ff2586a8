@@ -1,0 +1,17 @@
+/*
+ * threshold.c
+ *
+ *  Created on: Apr 27, 2020
+ *      Author: Carina
+ */
+
+#define THRESHOLD 0.8485
+
+int compare_with_threshold(double value) {
+    if (value > THRESHOLD){
+       return 1;
+    }else{
+        return 0;
+    }
+    return 0;
+}

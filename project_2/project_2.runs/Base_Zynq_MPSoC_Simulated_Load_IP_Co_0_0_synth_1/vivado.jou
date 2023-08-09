@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun  5 12:14:35 2023
+# Process ID: 29498
+# Current directory: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_synth_1
+# Command line: vivado -log Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.tcl
+# Log file: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_synth_1/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.vds
+# Journal file: /home/manvar00/Downloads/RELEASE DVD/vivado_designs/zcu104_src_power/project_2/project_2.runs/Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source Base_Zynq_MPSoC_Simulated_Load_IP_Co_0_0.tcl -notrace

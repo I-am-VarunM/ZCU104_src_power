@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jun  6 17:15:31 2023
+# Process ID: 56994
+# Current directory: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power
+# Command line: vivado
+# Log file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/vivado.log
+# Journal file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Using_IP_with_Zynq/lab1/hls_macc/vhls_prj/solution1/impl/ip'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Introduction/lab1/lab1/solution1/impl/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Using_IP_with_Zynq/lab1/hls_macc/vhls_prj/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/manvar00/Downloads/workspace/ug871-design-files/ug871-design-files/Introduction/lab1/lab1/solution1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Software/xilinx/2019.1-sdx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 6574.312 ; gain = 221.250 ; free physical = 4166 ; free virtual = 6588
+update_compile_order -fileset sources_1
+launch_sdk -workspace /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

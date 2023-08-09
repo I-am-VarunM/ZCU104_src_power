@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jun  6 14:16:10 2023
+# Process ID: 37772
+# Current directory: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power
+# Command line: vivado
+# Log file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/vivado.log
+# Journal file: /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk -hwspec /home/manvar00/Downloads/RELEASE_DVD/vivado_designs/zcu104_src_power/project_2/project_2.sdk/Base_Zynq_MPSoC_wrapper.hdf
