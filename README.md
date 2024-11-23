@@ -1,6 +1,6 @@
 # FPGA-based Measurement Setup
 
-This repository contains the implementation of a measurement setup on an FPGA using Vivado and Vitis SDE. The setup includes various functionalities such as load generation, PWM generation, sensor data acquisition, and communication with a PC via UART.
+This repository contains the implementation of a measurement setup on an FPGA using Vivado and Vitis SDE. The setup includes various functionalities such as load generation, PWM generation, sensor data acquisition, and communication with a PC via UART. This is my work for the project **On-Chip Side Channel Attack Detection using ML** done at Karlsruhe Institute of Technology as a DAAD WISE Scholar'23.
 
 ## FPGA Implementation (Vivado)
 
